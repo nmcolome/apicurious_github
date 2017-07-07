@@ -1,6 +1,12 @@
 <% if current_user %>
   <%= "Welcome #{current_user.nickname}" %>
   <%= link_to "Sign out", logout_path %>
+  <section>
+    <ul>Overview</ul>
+    <ul><%= "Repositories #{@account.public_repos}" %></ul>
+    <ul><%= "Followers #{@account.followers}" %></ul>
+    <ul><%= "Following #{@account.following}" %></ul>
+  </section>
 <% else %>
   <%= link_to "Sign in with Github", github_login_path %>
 <% end %>

@@ -1,22 +1,4 @@
 <% if current_user %>
-  <ul class: "avatar"><%= image_tag @account.avatar_url %></ul>
-  <ul><%= @account.name %></ul>
-  <ul><%= @account.login %></ul>
-  <ul><%= @account.bio %></ul>
-  <ul><%= @account.company %></ul>
-  <ul><%= @account.location %></ul>
-  <ul><%= current_user.email %></ul>
-  <ul><%= @account.blog %></ul>
-  <ul>Organizations</ul>
-  <ul><%= @account.blog %></ul>
-
-  <section>
-    <ul>Overview</ul>
-    <ul><%= "Repositories #{@account.public_repos}" %></ul>
-    <ul><%= "Followers #{@account.followers}" %></ul>
-    <ul><%= "Following #{@account.following}" %></ul>
-  </section>
-
   <section>
     <% @followers.each do |follower| %>
       <ul class: "thumbnail"><%= image_tag follower.avatar_url %></ul>

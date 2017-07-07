@@ -1,0 +1,14 @@
+<% if current_user %>
+  <ul class: "avatar"><%= image_tag @account.avatar_url %></ul>
+  <ul><%= @account.name %></ul>
+  <ul><%= @account.login %></ul>
+  <ul><%= @account.bio %></ul>
+  <ul><%= @account.company %></ul>
+  <ul><%= @account.location %></ul>
+  <ul><%= current_user.email %></ul>
+  <ul><%= @account.blog %></ul>
+  <ul>Organizations</ul>
+  <ul><%= @account.blog %></ul>
+<% else %>
+  <p>Log in to show data</p>
+<% end %>

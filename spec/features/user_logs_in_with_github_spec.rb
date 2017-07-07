@@ -6,7 +6,6 @@ RSpec.describe 'user' do
     stub_omniauth
   end
 
-  # context 'with github account' do
     it 'logs in' do
       visit '/'
 
@@ -17,14 +16,11 @@ RSpec.describe 'user' do
       assert_equal "/", current_path
       assert page.has_content?("jdoe")
       assert page.has_link?("Sign out")
-    # end
+    end
   end
 
   def stub_omniauth
-    # first, set OmniAuth to run in test mode
     OmniAuth.config.test_mode = true
-    # then, provide a set of fake oauth data that
-    # omniauth will use when a user tries to authenticate:
     OmniAuth.config.mock_auth[:github] = OmniAuth::AuthHash.new({
       provider: "github",
       uid: "1234",
