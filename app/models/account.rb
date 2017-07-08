@@ -10,7 +10,8 @@ class Account
               :blog,
               :avatar_url,
               :email,
-              :bio
+              :bio,
+              :html_url
 
   def initialize(attrs)
     @attrs = attrs
@@ -26,6 +27,7 @@ class Account
     @blog = attrs[:blog]
     @email = attrs[:email]
     @bio = attrs[:bio]
+    @html_url = attrs[:html_url]
   end
 
   private

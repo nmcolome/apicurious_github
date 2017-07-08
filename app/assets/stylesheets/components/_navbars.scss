@@ -1,0 +1,22 @@
+@import 'base';
+
+.navbar {
+  // align-items: center;
+  background-color: $dark_background;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 12px;
+  color: white;
+
+  .nav_links {
+    color: white;
+  //   a {
+  //     margin-left: 20px;
+  //   }
+  //   a:hover {
+  //     color: $dark-hover;
+  //     font-weight: 500;
+  //   }
+  }
+}

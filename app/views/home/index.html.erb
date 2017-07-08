@@ -1,14 +1,25 @@
 <% if current_user %>
-  <section>
+  <span class='grid'>
+  <%= render partial: "navbar" %>
     <% @followers.each do |follower| %>
-      <ul class: "thumbnail"><%= image_tag follower.avatar_url %></ul>
-      <ul><%= follower.name %></ul>
-      <ul><%= follower.login %></ul>
-      <ul><%= follower.bio %></ul>
-      <ul><%= follower.company %></ul>
-      <ul><%= follower.location %></ul>
+      <section>
+        <div>
+          <%= image_tag follower.avatar_url, class: "s_avatar" %>
+        </div>
+        <div class="follow_data">
+          <span class='name_data'>
+            <p class='follower_name'><%= follower.name %></p>
+            <p><%= follower.login %></p>
+          </span>
+          <p class='bio'><%= follower.bio %></p>
+          <span class='contact_data'>
+            <p><%= follower.location %></p>
+            <p><%= follower.company %></p>
+          </span>
+        </div>
+      </section>
     <% end %>
-  </section>
+  </span>
 <% else %>
   <p>Log in to show data</p>
 <% end %>

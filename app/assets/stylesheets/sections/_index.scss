@@ -1,0 +1,63 @@
+@import 'base';
+
+.grid {
+  display: flex;
+  // flex-wrap: wrap;
+  flex-direction: column;
+
+  section {
+    // border-radius: 4px;
+    display: flex;
+    // justify-content: space-around;
+    // flex-direction: column;
+    // justify-content: flex-end;
+    // margin: 50px;
+    padding: 24px 0;
+    // text-align: center;
+    border-bottom: solid 1px #e1e4e8;
+    width: 100%;
+
+    div {
+      display: flex;
+    }
+    .follow_data {
+      display: flex;
+      flex-direction: column;
+      padding: 0 0 0 6px;
+
+      .name_data {
+        display: flex;
+        padding: 0 4px 0 0;
+        align-items: baseline;
+
+        p {
+          padding: 0 5px 0 0;
+        }
+      }
+
+      .contact_data {
+        font-size: 12px;
+        display: flex;
+
+        p {
+          padding: 0 16px 0 0;
+        }
+      }
+    }
+    // img {
+      // align-self: center;
+      // margin: 35px;
+    // }
+  }
+
+  .profile_navbar {
+    display: flex;
+    // height: 62px;
+    justify-content: space-around;
+    border-bottom: solid 1px #d1d5da;
+  }
+}
+
+.follower_name {
+  font-size: 16px;
+}

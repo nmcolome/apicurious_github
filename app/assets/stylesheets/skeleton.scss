@@ -1,0 +1,35 @@
+@import 'base';
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  margin: 0;
+}
+
+p {
+  font-size: 14px;
+  margin: 0;
+}
+
+section {
+  padding: 30px auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  font-size: 14px;
+  color: $primary-text;
+}
+
+.parent {
+  display: flex;
+  margin: 0 auto;
+  padding: 0 16px;
+  width: 80%
+}

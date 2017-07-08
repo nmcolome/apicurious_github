@@ -1,0 +1,24 @@
+@import 'base';
+
+input {
+  font-size: 16px;
+}
+
+.login-submit {
+  background-color: $accent;
+  
+  &:hover {
+    background-color: $clear-hover;
+  }
+}
+
+.btn {
+  background-color: $accent;
+  padding: 2px 6px 2px 6px;
+  margin: 0px 80px;
+  border-radius: 4px;
+
+  &:hover {
+    background-color: $clear-hover;
+  }
+}

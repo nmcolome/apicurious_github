@@ -1,0 +1,23 @@
+// @import url('https://fonts.googleapis.com/css?family=Lora|Muli');
+
+// $font-serif: 'Lora', serif;
+$font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+
+$light: #F4F4F4;
+$dark: #696969;
+$accent: white;
+$light-text: #F4F4F4;
+$primary-text: #24292e;
+$second-text: #586069;
+$divider: #BCBCBC;
+$background: #EDEDED;
+$dark_background: #24292E;
+$clear-hover: white;
+$dark-hover: blue;
+
+* {
+	// border: 1px solid red;
+  color: $primary-text;
+  font-family: $font-sans;
+  text-decoration: none;
+}
