@@ -7,7 +7,7 @@ feature "User sees list of people they're following" do
   end
 
   scenario 'as a logged in user' do
-    VCR.use_cassette("user_sees_basic_info") do
+    VCR.use_cassette("user_sees_who_they_are_following") do
       visit '/'
       click_link "Sign in with Github"
       click_link "Following"

@@ -7,7 +7,7 @@ feature 'User sees their commits' do
   end
 
   scenario 'as a logged in user' do
-    VCR.use_cassette("user_sees_basic_info") do
+    VCR.use_cassette("user_sees_their_commits") do
       visit '/'
       click_link "Sign in with Github"
 
