@@ -12,7 +12,7 @@ feature "User sees the organizations they're members of" do
       click_link "Sign in with Github"
 
       expect(page).to have_content("Organizations")
-      expect(page).to have_selector('.xs_avatar')
+      # expect(page).to have_selector('.xs_avatar')
     end
   end
 end

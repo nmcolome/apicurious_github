@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sun, 09 Jul 2017 18:26:01 GMT
+      - Sun, 09 Jul 2017 21:39:17 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -31,9 +31,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4875'
+      - '4904'
       X-Ratelimit-Reset:
-      - '1499625406'
+      - '1499639331'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -67,11 +67,11 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Runtime-Rack:
-      - '0.041514'
+      - '0.033806'
       X-Served-By:
-      - e183f7c661b1bbc2c987b3c4dc7b04e0
+      - 3e3b9690823fb031da84658eb58aa83b
       X-Github-Request-Id:
-      - F984:724C:F80417:1895147:59627539
+      - FAD3:11DB6:1AB54A4:331B7A4:5962A285
     body:
       encoding: ASCII-8BIT
       string: '{"login":"iandouglas","id":168030,"avatar_url":"https://avatars3.githubusercontent.com/u/168030?v=3","gravatar_id":"","url":"https://api.github.com/users/iandouglas","html_url":"https://github.com/iandouglas","followers_url":"https://api.github.com/users/iandouglas/followers","following_url":"https://api.github.com/users/iandouglas/following{/other_user}","gists_url":"https://api.github.com/users/iandouglas/gists{/gist_id}","starred_url":"https://api.github.com/users/iandouglas/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/iandouglas/subscriptions","organizations_url":"https://api.github.com/users/iandouglas/orgs","repos_url":"https://api.github.com/users/iandouglas/repos","events_url":"https://api.github.com/users/iandouglas/events{/privacy}","received_events_url":"https://api.github.com/users/iandouglas/received_events","type":"User","site_admin":false,"name":"ian
@@ -79,5 +79,5 @@ http_interactions:
         CO","email":"ian.douglas@iandouglas.com","hireable":null,"bio":"Developer
         Relations Lead, open-source advocate, teacher/trainer/learner","public_repos":54,"public_gists":13,"followers":44,"following":20,"created_at":"2009-12-15T18:48:12Z","updated_at":"2017-07-04T03:55:08Z"}'
     http_version: 
-  recorded_at: Sun, 09 Jul 2017 18:26:01 GMT
+  recorded_at: Sun, 09 Jul 2017 21:39:16 GMT
 recorded_with: VCR 3.0.3
