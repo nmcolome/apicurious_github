@@ -1,16 +1,16 @@
 <div class="sidebar">
   <% if current_user %>
-    <%= image_tag @account.avatar_url, class: "avatar" %>
+    <%= image_tag @github_user.avatar_url, class: "avatar" %>
     <div class="card">
-      <h1 class="name"><%= @account.name %></h1>
-      <p class="login"><%= @account.login %></p>
+      <h1 class="name"><%= @github_user.name %></h1>
+      <p class="login"><%= @github_user.login %></p>
     </div>
-    <p class="bio"><%= @account.bio %></p>
+    <p class="bio"><%= @github_user.bio %></p>
     <div class="card">
-      <p class="company"><%= @account.company %></p>
-      <p class="location"><%= @account.location %></p>
+      <p class="company"><%= @github_user.company %></p>
+      <p class="location"><%= @github_user.location %></p>
       <p class="email"><%= current_user.email %></p>
-      <p class="blog"><%= @account.blog %></p>
+      <p class="blog"><%= @github_user.blog %></p>
     </div>
     <% if @orgs %>
       <div class="card">

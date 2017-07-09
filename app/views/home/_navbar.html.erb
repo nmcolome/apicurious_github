@@ -1,6 +1,7 @@
   <section class='profile_navbar'>
+    <%= link_to "Overview" %>
     <p>Overview</p>
-    <p><%= "Repositories #{@account.public_repos}" %></p>
-    <p><%= "Followers #{@account.followers}" %></p>
-    <p><%= "Following #{@account.following}" %></p>
+    <p><%= "Repositories #{@github_user.public_repos}" %></p>
+    <p><%= "Followers #{@github_user.followers}" %></p>
+    <p><%= "Following #{@github_user.following}" %></p>
   </section>
