@@ -31,7 +31,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4884'
+      - '4886'
       X-Ratelimit-Reset:
       - '1499589239'
       Cache-Control:
@@ -67,11 +67,11 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Runtime-Rack:
-      - '0.027364'
+      - '0.029198'
       X-Served-By:
-      - 2d7a5e35115884240089368322196939
+      - 13d09b732ebe76f892093130dc088652
       X-Github-Request-Id:
-      - D9A9:11DB2:18D0769:266DF4C:5961EA20
+      - D9A7:11DB6:140AFE8:263C960:5961EA20
     body:
       encoding: ASCII-8BIT
       string: !binary |-
@@ -99,7 +99,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sun, 09 Jul 2017 08:32:33 GMT
+      - Sun, 09 Jul 2017 08:32:32 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -109,7 +109,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4883'
+      - '4885'
       X-Ratelimit-Reset:
       - '1499589239'
       Cache-Control:
@@ -143,14 +143,14 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Runtime-Rack:
-      - '0.012847'
+      - '0.012987'
       X-Served-By:
-      - 02ea60dfed58b2a09106fafd6ca0c108
+      - 075bb2f6b7031ca3c0e69edb17939fae
       X-Github-Request-Id:
-      - D9AA:11DB6:140B084:263CA83:5961EA21
+      - D9A8:11DB2:18D0732:266DEE7:5961EA20
     body:
       encoding: UTF-8
       string: "[]"
     http_version: 
-  recorded_at: Sun, 09 Jul 2017 08:32:33 GMT
+  recorded_at: Sun, 09 Jul 2017 08:32:32 GMT
 recorded_with: VCR 3.0.3

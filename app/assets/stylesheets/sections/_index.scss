@@ -61,9 +61,12 @@
     a {
       padding: 0 20px;
       border-bottom: solid 1px #d1d5da;
+      height: 62px;
+      display: flex;
+      align-items: center;
 
-      a:active {
-        border-bottom: solid 1px #e36209;
+      &active {
+        border-bottom: solid 1px #e36209 !important;
       }
     }
 

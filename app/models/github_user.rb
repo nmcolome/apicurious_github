@@ -26,6 +26,18 @@ class GithubUser
     @public_repos = attrs[:public_repos]
   end
 
+  def self.current_user_info(login, token)
+    new(GithubService.current_user_info(login, token))
+  end
+
+  def self.get_followers(login, token)
+    logins = GithubService.get_followers(login, token)
+
+    logins.map do |follower|
+      current_user_info(follower, token)
+    end
+  end
+
   private
     attr_reader :attrs
 end

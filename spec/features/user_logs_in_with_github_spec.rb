@@ -6,15 +6,18 @@ RSpec.describe 'user' do
     stub_omniauth
   end
 
-  it 'logs in' do
-    visit '/'
+  it 'logs in with github' do
+    VCR.use_cassette("user_logs_in_with_github") do
 
-    assert_equal 200, page.status_code
+      visit '/'
 
-    click_link "Sign in with Github"
+      assert_equal 200, page.status_code
 
-    assert_equal "/", current_path
-    assert page.has_content?("jdoe")
-    assert page.has_link?("Sign out")
+      click_link "Sign in with Github"
+
+      assert_equal "/", current_path
+      assert page.has_content?("nmcolome")
+      assert page.has_link?("Sign out")
+    end
   end
 end

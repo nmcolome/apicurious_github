@@ -14,13 +14,13 @@ def stub_omniauth
     provider: "github",
     uid: "1234",
     info: {
-      nickname: "jdoe",
-      email: "jdoe@email.com",
-      name: "Jane Doe",
+      nickname: "nmcolome",
+      email: "mymail@email.com",
+      name: "Natalia Colome",
       image: "image_path",
     },
     credentials: {
-      token: "secret"
+      token: ENV['my_token']
     }
   })
 end
@@ -28,6 +28,7 @@ end
 VCR.configure do |config|
   config.cassette_library_dir = "spec/fixtures/vcr_cassettes"
   config.hook_into :webmock
+  config.filter_sensitive_data('<ACCESS_TOKEN>') {ENV['my_token']}
 end
 
 # Add additional requires below this line. Rails is not loaded until this point!
@@ -78,5 +79,5 @@ RSpec.configure do |config|
   # Filter lines from Rails gems in backtraces.
   config.filter_rails_from_backtrace!
   # arbitrary gems may also be filtered via:
-  config.filter_gems_from_backtrace("factory_girl-4.8.0", "capybara-2.14.0", "rack-test-0.6.3", "railties-5.0.3", "rack-2.0.3", "activesupport-5.0.3")
+  config.filter_gems_from_backtrace("factory_girl-4.8.0", "capybara-2.14.0", "rack-test-0.6.3", "railties-5.0.3", "rack-2.0.3", "activesupport-5.0.3", "webmock-3.0.1", "faraday-0.12.1", "vcr-3.0.3", "railties-5.1.2", "omniauth-1.6.1", "capybara-2.14.4")
 end
