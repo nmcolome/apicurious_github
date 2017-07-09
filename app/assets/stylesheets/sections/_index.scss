@@ -12,10 +12,13 @@
     // flex-direction: column;
     // justify-content: flex-end;
     // margin: 50px;
-    padding: 24px 0;
     // text-align: center;
     border-bottom: solid 1px #e1e4e8;
     width: 100%;
+
+    .follow_card {
+      padding: 24px 0;
+    }
 
     div {
       display: flex;
@@ -53,8 +56,7 @@
   .profile_navbar {
     display: flex;
     // height: 62px;
-    justify-content: space-around;
-    border-bottom: solid 1px #d1d5da;
+    // border-bottom: solid 1px #d1d5da;
   }
 }
 

@@ -2,7 +2,7 @@
   <span class='grid'>
   <%= render partial: "navbar" %>
     <% @followers.each do |follower| %>
-      <section>
+      <section class="follow_card">
         <div>
           <%= image_tag follower.avatar_url, class: "s_avatar" %>
         </div>
