@@ -2,6 +2,7 @@
     <a>Overview</a>
     <a>Repositories <span class="counter"><%= @github_user.public_repos %></span></a>
     <%#<%= link_to "Followers",  %>
-    <a href="/tab?category=followers">Followers <span class="counter"><%= @github_user.followers %></span></a>
-    <a>Following <span class="counter"><%= @github_user.following %></span></a>
+    <span class="followers_link"><a href="/tab?category=followers">Followers <span class="counter"><%= @github_user.followers %></span></a></span>
+    
+    <a href="/tab?category=following" class="following_link">Following <span class="counter"><%= @github_user.following %></span></a>
   </section>

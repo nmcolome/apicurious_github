@@ -38,6 +38,14 @@ class GithubUser
     end
   end
 
+  def self.get_following(login, token)
+    logins = GithubService.get_following(login, token)
+
+    logins.map do |following|
+      current_user_info(following, token)
+    end
+  end
+
   private
     attr_reader :attrs
 end

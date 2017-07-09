@@ -65,4 +65,18 @@ RSpec.describe GithubService do
       end
     end
   end
+
+  context ".get_following" do
+    it "returns an array of strings" do
+      VCR.use_cassette("github_service.get_following") do
+        raw_followings = GithubService.get_following("nmcolome", ENV['my_token'])
+        raw_following = raw_followings.first
+
+        expect(raw_followings).to be_an Array
+        expect(raw_followings.count).to eq(5)
+        expect(raw_following).to be_a String
+      end
+    end
+  end
+
 end

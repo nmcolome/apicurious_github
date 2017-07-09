@@ -8,9 +8,9 @@ class TabController < ApplicationController
     end
 
     if params[:category] == 'followers'
-      @followers = GithubUser.get_followers(current_user.nickname, current_user.token)
-    else
-      
+      @follows = GithubUser.get_followers(current_user.nickname, current_user.token)
+    elsif params[:category] == 'following'
+      @follows = GithubUser.get_following(current_user.nickname, current_user.token)
     end
   end
 end

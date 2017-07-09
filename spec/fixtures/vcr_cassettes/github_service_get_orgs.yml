@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sun, 09 Jul 2017 08:32:34 GMT
+      - Sun, 09 Jul 2017 18:26:01 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -31,9 +31,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4881'
+      - '4874'
       X-Ratelimit-Reset:
-      - '1499589239'
+      - '1499625406'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -64,13 +64,13 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Runtime-Rack:
-      - '0.025066'
+      - '0.023937'
       X-Github-Request-Id:
-      - D9AC:11DB6:140B106:263CB91:5961EA22
+      - F985:7251:1AF43D4:2A840BA:59627539
     body:
       encoding: ASCII-8BIT
       string: '[{"login":"RallySoftware","id":1316658,"url":"https://api.github.com/orgs/RallySoftware","repos_url":"https://api.github.com/orgs/RallySoftware/repos","events_url":"https://api.github.com/orgs/RallySoftware/events","hooks_url":"https://api.github.com/orgs/RallySoftware/hooks","issues_url":"https://api.github.com/orgs/RallySoftware/issues","members_url":"https://api.github.com/orgs/RallySoftware/members{/member}","public_members_url":"https://api.github.com/orgs/RallySoftware/public_members{/member}","avatar_url":"https://avatars3.githubusercontent.com/u/1316658?v=3","description":"RallyDev
         organization and associated repositories"},{"login":"turingschool","id":7934292,"url":"https://api.github.com/orgs/turingschool","repos_url":"https://api.github.com/orgs/turingschool/repos","events_url":"https://api.github.com/orgs/turingschool/events","hooks_url":"https://api.github.com/orgs/turingschool/hooks","issues_url":"https://api.github.com/orgs/turingschool/issues","members_url":"https://api.github.com/orgs/turingschool/members{/member}","public_members_url":"https://api.github.com/orgs/turingschool/public_members{/member}","avatar_url":"https://avatars3.githubusercontent.com/u/7934292?v=3","description":""}]'
     http_version: 
-  recorded_at: Sun, 09 Jul 2017 08:32:34 GMT
+  recorded_at: Sun, 09 Jul 2017 18:26:01 GMT
 recorded_with: VCR 3.0.3
