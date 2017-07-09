@@ -55,8 +55,24 @@
 
   .profile_navbar {
     display: flex;
-    // height: 62px;
-    // border-bottom: solid 1px #d1d5da;
+    height: 62px;
+    align-items: center;
+
+    a {
+      padding: 0 20px;
+      border-bottom: solid 1px #d1d5da;
+
+      a:active {
+        border-bottom: solid 1px #e36209;
+      }
+    }
+
+    .counter {
+      padding: 2px 5px;
+      color: #586069;
+      background-color: rgba(27,31,35,0.08);
+      border-radius: 20px;
+    }
   }
 }
 
