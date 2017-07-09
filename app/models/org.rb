@@ -1,11 +1,11 @@
 class Org
-  attr_reader :avatar_url,
-              :html_url
+  attr_reader :login,
+              :avatar_url
 
   def initialize(attrs)
     @attrs = attrs
+    @login = attrs[:login]
     @avatar_url = attrs[:avatar_url]
-    @html_url = attrs[:html_url]
   end
 
   private

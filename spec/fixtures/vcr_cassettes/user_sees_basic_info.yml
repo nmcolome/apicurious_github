@@ -1,0 +1,2619 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.github.com/users/marinacor1?access_token=4e4086ae85c7b0e17fe9edae295fc748a2c7576b
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Sat, 08 Jul 2017 23:24:04 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4929'
+      X-Ratelimit-Reset:
+      - '1499557266'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      Etag:
+      - W/"c9de3ed6925a6f444de0f925b04a2a38"
+      Last-Modified:
+      - Mon, 22 May 2017 16:00:49 GMT
+      X-Oauth-Scopes:
+      - ''
+      X-Accepted-Oauth-Scopes:
+      - ''
+      X-Oauth-Client-Id:
+      - 43f42477d5c72fbfd253
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Runtime-Rack:
+      - '0.032173'
+      X-Served-By:
+      - 2d7a5e35115884240089368322196939
+      X-Github-Request-Id:
+      - D3C9:7251:10A16AF:1A2BB54:59616994
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"marinacor1","id":14285122,"avatar_url":"https://avatars0.githubusercontent.com/u/14285122?v=3","gravatar_id":"","url":"https://api.github.com/users/marinacor1","html_url":"https://github.com/marinacor1","followers_url":"https://api.github.com/users/marinacor1/followers","following_url":"https://api.github.com/users/marinacor1/following{/other_user}","gists_url":"https://api.github.com/users/marinacor1/gists{/gist_id}","starred_url":"https://api.github.com/users/marinacor1/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/marinacor1/subscriptions","organizations_url":"https://api.github.com/users/marinacor1/orgs","repos_url":"https://api.github.com/users/marinacor1/repos","events_url":"https://api.github.com/users/marinacor1/events{/privacy}","received_events_url":"https://api.github.com/users/marinacor1/received_events","type":"User","site_admin":false,"name":"Marina
+        Corona","company":null,"blog":"marinacorona.com","location":"Denver, Colorado","email":null,"hireable":null,"bio":"Colorado
+        skier with a love for code.","public_repos":128,"public_gists":9,"followers":31,"following":69,"created_at":"2015-09-15T01:02:30Z","updated_at":"2017-05-22T16:00:49Z"}'
+    http_version: 
+  recorded_at: Sat, 08 Jul 2017 23:24:04 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/marinacor1/followers?access_token=4e4086ae85c7b0e17fe9edae295fc748a2c7576b
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Sat, 08 Jul 2017 23:24:05 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4928'
+      X-Ratelimit-Reset:
+      - '1499557266'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      Etag:
+      - W/"70ccea0bd642bf782875a570f01fe529"
+      X-Oauth-Scopes:
+      - ''
+      X-Accepted-Oauth-Scopes:
+      - ''
+      X-Oauth-Client-Id:
+      - 43f42477d5c72fbfd253
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Link:
+      - <https://api.github.com/user/14285122/followers?access_token=4e4086ae85c7b0e17fe9edae295fc748a2c7576b&page=2>;
+        rel="next", <https://api.github.com/user/14285122/followers?access_token=4e4086ae85c7b0e17fe9edae295fc748a2c7576b&page=2>;
+        rel="last"
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Runtime-Rack:
+      - '0.062295'
+      X-Github-Request-Id:
+      - D3CA:7251:10A16E2:1A2BB93:59616995
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"login":"MDes41","id":8398525,"avatar_url":"https://avatars0.githubusercontent.com/u/8398525?v=3","gravatar_id":"","url":"https://api.github.com/users/MDes41","html_url":"https://github.com/MDes41","followers_url":"https://api.github.com/users/MDes41/followers","following_url":"https://api.github.com/users/MDes41/following{/other_user}","gists_url":"https://api.github.com/users/MDes41/gists{/gist_id}","starred_url":"https://api.github.com/users/MDes41/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/MDes41/subscriptions","organizations_url":"https://api.github.com/users/MDes41/orgs","repos_url":"https://api.github.com/users/MDes41/repos","events_url":"https://api.github.com/users/MDes41/events{/privacy}","received_events_url":"https://api.github.com/users/MDes41/received_events","type":"User","site_admin":false},{"login":"GKhalsa","id":11367377,"avatar_url":"https://avatars1.githubusercontent.com/u/11367377?v=3","gravatar_id":"","url":"https://api.github.com/users/GKhalsa","html_url":"https://github.com/GKhalsa","followers_url":"https://api.github.com/users/GKhalsa/followers","following_url":"https://api.github.com/users/GKhalsa/following{/other_user}","gists_url":"https://api.github.com/users/GKhalsa/gists{/gist_id}","starred_url":"https://api.github.com/users/GKhalsa/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/GKhalsa/subscriptions","organizations_url":"https://api.github.com/users/GKhalsa/orgs","repos_url":"https://api.github.com/users/GKhalsa/repos","events_url":"https://api.github.com/users/GKhalsa/events{/privacy}","received_events_url":"https://api.github.com/users/GKhalsa/received_events","type":"User","site_admin":false},{"login":"Salvi6God","id":13465112,"avatar_url":"https://avatars0.githubusercontent.com/u/13465112?v=3","gravatar_id":"","url":"https://api.github.com/users/Salvi6God","html_url":"https://github.com/Salvi6God","followers_url":"https://api.github.com/users/Salvi6God/followers","following_url":"https://api.github.com/users/Salvi6God/following{/other_user}","gists_url":"https://api.github.com/users/Salvi6God/gists{/gist_id}","starred_url":"https://api.github.com/users/Salvi6God/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Salvi6God/subscriptions","organizations_url":"https://api.github.com/users/Salvi6God/orgs","repos_url":"https://api.github.com/users/Salvi6God/repos","events_url":"https://api.github.com/users/Salvi6God/events{/privacy}","received_events_url":"https://api.github.com/users/Salvi6God/received_events","type":"User","site_admin":false},{"login":"NickyBobby","id":13855453,"avatar_url":"https://avatars2.githubusercontent.com/u/13855453?v=3","gravatar_id":"","url":"https://api.github.com/users/NickyBobby","html_url":"https://github.com/NickyBobby","followers_url":"https://api.github.com/users/NickyBobby/followers","following_url":"https://api.github.com/users/NickyBobby/following{/other_user}","gists_url":"https://api.github.com/users/NickyBobby/gists{/gist_id}","starred_url":"https://api.github.com/users/NickyBobby/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/NickyBobby/subscriptions","organizations_url":"https://api.github.com/users/NickyBobby/orgs","repos_url":"https://api.github.com/users/NickyBobby/repos","events_url":"https://api.github.com/users/NickyBobby/events{/privacy}","received_events_url":"https://api.github.com/users/NickyBobby/received_events","type":"User","site_admin":false},{"login":"weilandia","id":13652979,"avatar_url":"https://avatars2.githubusercontent.com/u/13652979?v=3","gravatar_id":"","url":"https://api.github.com/users/weilandia","html_url":"https://github.com/weilandia","followers_url":"https://api.github.com/users/weilandia/followers","following_url":"https://api.github.com/users/weilandia/following{/other_user}","gists_url":"https://api.github.com/users/weilandia/gists{/gist_id}","starred_url":"https://api.github.com/users/weilandia/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/weilandia/subscriptions","organizations_url":"https://api.github.com/users/weilandia/orgs","repos_url":"https://api.github.com/users/weilandia/repos","events_url":"https://api.github.com/users/weilandia/events{/privacy}","received_events_url":"https://api.github.com/users/weilandia/received_events","type":"User","site_admin":false},{"login":"hhoopes","id":14062214,"avatar_url":"https://avatars1.githubusercontent.com/u/14062214?v=3","gravatar_id":"","url":"https://api.github.com/users/hhoopes","html_url":"https://github.com/hhoopes","followers_url":"https://api.github.com/users/hhoopes/followers","following_url":"https://api.github.com/users/hhoopes/following{/other_user}","gists_url":"https://api.github.com/users/hhoopes/gists{/gist_id}","starred_url":"https://api.github.com/users/hhoopes/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hhoopes/subscriptions","organizations_url":"https://api.github.com/users/hhoopes/orgs","repos_url":"https://api.github.com/users/hhoopes/repos","events_url":"https://api.github.com/users/hhoopes/events{/privacy}","received_events_url":"https://api.github.com/users/hhoopes/received_events","type":"User","site_admin":false},{"login":"Carmer","id":9501766,"avatar_url":"https://avatars0.githubusercontent.com/u/9501766?v=3","gravatar_id":"","url":"https://api.github.com/users/Carmer","html_url":"https://github.com/Carmer","followers_url":"https://api.github.com/users/Carmer/followers","following_url":"https://api.github.com/users/Carmer/following{/other_user}","gists_url":"https://api.github.com/users/Carmer/gists{/gist_id}","starred_url":"https://api.github.com/users/Carmer/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Carmer/subscriptions","organizations_url":"https://api.github.com/users/Carmer/orgs","repos_url":"https://api.github.com/users/Carmer/repos","events_url":"https://api.github.com/users/Carmer/events{/privacy}","received_events_url":"https://api.github.com/users/Carmer/received_events","type":"User","site_admin":false},{"login":"brianrip","id":11996534,"avatar_url":"https://avatars3.githubusercontent.com/u/11996534?v=3","gravatar_id":"","url":"https://api.github.com/users/brianrip","html_url":"https://github.com/brianrip","followers_url":"https://api.github.com/users/brianrip/followers","following_url":"https://api.github.com/users/brianrip/following{/other_user}","gists_url":"https://api.github.com/users/brianrip/gists{/gist_id}","starred_url":"https://api.github.com/users/brianrip/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/brianrip/subscriptions","organizations_url":"https://api.github.com/users/brianrip/orgs","repos_url":"https://api.github.com/users/brianrip/repos","events_url":"https://api.github.com/users/brianrip/events{/privacy}","received_events_url":"https://api.github.com/users/brianrip/received_events","type":"User","site_admin":false},{"login":"damwhit","id":13105577,"avatar_url":"https://avatars0.githubusercontent.com/u/13105577?v=3","gravatar_id":"","url":"https://api.github.com/users/damwhit","html_url":"https://github.com/damwhit","followers_url":"https://api.github.com/users/damwhit/followers","following_url":"https://api.github.com/users/damwhit/following{/other_user}","gists_url":"https://api.github.com/users/damwhit/gists{/gist_id}","starred_url":"https://api.github.com/users/damwhit/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/damwhit/subscriptions","organizations_url":"https://api.github.com/users/damwhit/orgs","repos_url":"https://api.github.com/users/damwhit/repos","events_url":"https://api.github.com/users/damwhit/events{/privacy}","received_events_url":"https://api.github.com/users/damwhit/received_events","type":"User","site_admin":false},{"login":"thompickett","id":15093580,"avatar_url":"https://avatars0.githubusercontent.com/u/15093580?v=3","gravatar_id":"","url":"https://api.github.com/users/thompickett","html_url":"https://github.com/thompickett","followers_url":"https://api.github.com/users/thompickett/followers","following_url":"https://api.github.com/users/thompickett/following{/other_user}","gists_url":"https://api.github.com/users/thompickett/gists{/gist_id}","starred_url":"https://api.github.com/users/thompickett/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/thompickett/subscriptions","organizations_url":"https://api.github.com/users/thompickett/orgs","repos_url":"https://api.github.com/users/thompickett/repos","events_url":"https://api.github.com/users/thompickett/events{/privacy}","received_events_url":"https://api.github.com/users/thompickett/received_events","type":"User","site_admin":false},{"login":"notmarkmiranda","id":15822772,"avatar_url":"https://avatars3.githubusercontent.com/u/15822772?v=3","gravatar_id":"","url":"https://api.github.com/users/notmarkmiranda","html_url":"https://github.com/notmarkmiranda","followers_url":"https://api.github.com/users/notmarkmiranda/followers","following_url":"https://api.github.com/users/notmarkmiranda/following{/other_user}","gists_url":"https://api.github.com/users/notmarkmiranda/gists{/gist_id}","starred_url":"https://api.github.com/users/notmarkmiranda/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/notmarkmiranda/subscriptions","organizations_url":"https://api.github.com/users/notmarkmiranda/orgs","repos_url":"https://api.github.com/users/notmarkmiranda/repos","events_url":"https://api.github.com/users/notmarkmiranda/events{/privacy}","received_events_url":"https://api.github.com/users/notmarkmiranda/received_events","type":"User","site_admin":false},{"login":"s-espinosa","id":10855116,"avatar_url":"https://avatars2.githubusercontent.com/u/10855116?v=3","gravatar_id":"","url":"https://api.github.com/users/s-espinosa","html_url":"https://github.com/s-espinosa","followers_url":"https://api.github.com/users/s-espinosa/followers","following_url":"https://api.github.com/users/s-espinosa/following{/other_user}","gists_url":"https://api.github.com/users/s-espinosa/gists{/gist_id}","starred_url":"https://api.github.com/users/s-espinosa/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/s-espinosa/subscriptions","organizations_url":"https://api.github.com/users/s-espinosa/orgs","repos_url":"https://api.github.com/users/s-espinosa/repos","events_url":"https://api.github.com/users/s-espinosa/events{/privacy}","received_events_url":"https://api.github.com/users/s-espinosa/received_events","type":"User","site_admin":false},{"login":"drew-t","id":12980955,"avatar_url":"https://avatars3.githubusercontent.com/u/12980955?v=3","gravatar_id":"","url":"https://api.github.com/users/drew-t","html_url":"https://github.com/drew-t","followers_url":"https://api.github.com/users/drew-t/followers","following_url":"https://api.github.com/users/drew-t/following{/other_user}","gists_url":"https://api.github.com/users/drew-t/gists{/gist_id}","starred_url":"https://api.github.com/users/drew-t/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/drew-t/subscriptions","organizations_url":"https://api.github.com/users/drew-t/orgs","repos_url":"https://api.github.com/users/drew-t/repos","events_url":"https://api.github.com/users/drew-t/events{/privacy}","received_events_url":"https://api.github.com/users/drew-t/received_events","type":"User","site_admin":false},{"login":"jwashke","id":14855129,"avatar_url":"https://avatars3.githubusercontent.com/u/14855129?v=3","gravatar_id":"","url":"https://api.github.com/users/jwashke","html_url":"https://github.com/jwashke","followers_url":"https://api.github.com/users/jwashke/followers","following_url":"https://api.github.com/users/jwashke/following{/other_user}","gists_url":"https://api.github.com/users/jwashke/gists{/gist_id}","starred_url":"https://api.github.com/users/jwashke/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jwashke/subscriptions","organizations_url":"https://api.github.com/users/jwashke/orgs","repos_url":"https://api.github.com/users/jwashke/repos","events_url":"https://api.github.com/users/jwashke/events{/privacy}","received_events_url":"https://api.github.com/users/jwashke/received_events","type":"User","site_admin":false},{"login":"kristindiannefoss","id":15794034,"avatar_url":"https://avatars0.githubusercontent.com/u/15794034?v=3","gravatar_id":"","url":"https://api.github.com/users/kristindiannefoss","html_url":"https://github.com/kristindiannefoss","followers_url":"https://api.github.com/users/kristindiannefoss/followers","following_url":"https://api.github.com/users/kristindiannefoss/following{/other_user}","gists_url":"https://api.github.com/users/kristindiannefoss/gists{/gist_id}","starred_url":"https://api.github.com/users/kristindiannefoss/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/kristindiannefoss/subscriptions","organizations_url":"https://api.github.com/users/kristindiannefoss/orgs","repos_url":"https://api.github.com/users/kristindiannefoss/repos","events_url":"https://api.github.com/users/kristindiannefoss/events{/privacy}","received_events_url":"https://api.github.com/users/kristindiannefoss/received_events","type":"User","site_admin":false},{"login":"stoked-zz","id":13973828,"avatar_url":"https://avatars0.githubusercontent.com/u/13973828?v=3","gravatar_id":"","url":"https://api.github.com/users/stoked-zz","html_url":"https://github.com/stoked-zz","followers_url":"https://api.github.com/users/stoked-zz/followers","following_url":"https://api.github.com/users/stoked-zz/following{/other_user}","gists_url":"https://api.github.com/users/stoked-zz/gists{/gist_id}","starred_url":"https://api.github.com/users/stoked-zz/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/stoked-zz/subscriptions","organizations_url":"https://api.github.com/users/stoked-zz/orgs","repos_url":"https://api.github.com/users/stoked-zz/repos","events_url":"https://api.github.com/users/stoked-zz/events{/privacy}","received_events_url":"https://api.github.com/users/stoked-zz/received_events","type":"User","site_admin":false},{"login":"adamhundley","id":11205612,"avatar_url":"https://avatars2.githubusercontent.com/u/11205612?v=3","gravatar_id":"","url":"https://api.github.com/users/adamhundley","html_url":"https://github.com/adamhundley","followers_url":"https://api.github.com/users/adamhundley/followers","following_url":"https://api.github.com/users/adamhundley/following{/other_user}","gists_url":"https://api.github.com/users/adamhundley/gists{/gist_id}","starred_url":"https://api.github.com/users/adamhundley/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/adamhundley/subscriptions","organizations_url":"https://api.github.com/users/adamhundley/orgs","repos_url":"https://api.github.com/users/adamhundley/repos","events_url":"https://api.github.com/users/adamhundley/events{/privacy}","received_events_url":"https://api.github.com/users/adamhundley/received_events","type":"User","site_admin":false},{"login":"kamiboers","id":15680831,"avatar_url":"https://avatars0.githubusercontent.com/u/15680831?v=3","gravatar_id":"","url":"https://api.github.com/users/kamiboers","html_url":"https://github.com/kamiboers","followers_url":"https://api.github.com/users/kamiboers/followers","following_url":"https://api.github.com/users/kamiboers/following{/other_user}","gists_url":"https://api.github.com/users/kamiboers/gists{/gist_id}","starred_url":"https://api.github.com/users/kamiboers/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/kamiboers/subscriptions","organizations_url":"https://api.github.com/users/kamiboers/orgs","repos_url":"https://api.github.com/users/kamiboers/repos","events_url":"https://api.github.com/users/kamiboers/events{/privacy}","received_events_url":"https://api.github.com/users/kamiboers/received_events","type":"User","site_admin":false},{"login":"icorson3","id":14942680,"avatar_url":"https://avatars2.githubusercontent.com/u/14942680?v=3","gravatar_id":"","url":"https://api.github.com/users/icorson3","html_url":"https://github.com/icorson3","followers_url":"https://api.github.com/users/icorson3/followers","following_url":"https://api.github.com/users/icorson3/following{/other_user}","gists_url":"https://api.github.com/users/icorson3/gists{/gist_id}","starred_url":"https://api.github.com/users/icorson3/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/icorson3/subscriptions","organizations_url":"https://api.github.com/users/icorson3/orgs","repos_url":"https://api.github.com/users/icorson3/repos","events_url":"https://api.github.com/users/icorson3/events{/privacy}","received_events_url":"https://api.github.com/users/icorson3/received_events","type":"User","site_admin":false},{"login":"Jbern16","id":13852077,"avatar_url":"https://avatars3.githubusercontent.com/u/13852077?v=3","gravatar_id":"","url":"https://api.github.com/users/Jbern16","html_url":"https://github.com/Jbern16","followers_url":"https://api.github.com/users/Jbern16/followers","following_url":"https://api.github.com/users/Jbern16/following{/other_user}","gists_url":"https://api.github.com/users/Jbern16/gists{/gist_id}","starred_url":"https://api.github.com/users/Jbern16/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Jbern16/subscriptions","organizations_url":"https://api.github.com/users/Jbern16/orgs","repos_url":"https://api.github.com/users/Jbern16/repos","events_url":"https://api.github.com/users/Jbern16/events{/privacy}","received_events_url":"https://api.github.com/users/Jbern16/received_events","type":"User","site_admin":false},{"login":"jdliss","id":8560631,"avatar_url":"https://avatars3.githubusercontent.com/u/8560631?v=3","gravatar_id":"","url":"https://api.github.com/users/jdliss","html_url":"https://github.com/jdliss","followers_url":"https://api.github.com/users/jdliss/followers","following_url":"https://api.github.com/users/jdliss/following{/other_user}","gists_url":"https://api.github.com/users/jdliss/gists{/gist_id}","starred_url":"https://api.github.com/users/jdliss/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jdliss/subscriptions","organizations_url":"https://api.github.com/users/jdliss/orgs","repos_url":"https://api.github.com/users/jdliss/repos","events_url":"https://api.github.com/users/jdliss/events{/privacy}","received_events_url":"https://api.github.com/users/jdliss/received_events","type":"User","site_admin":false},{"login":"ColinOsborn","id":13109607,"avatar_url":"https://avatars2.githubusercontent.com/u/13109607?v=3","gravatar_id":"","url":"https://api.github.com/users/ColinOsborn","html_url":"https://github.com/ColinOsborn","followers_url":"https://api.github.com/users/ColinOsborn/followers","following_url":"https://api.github.com/users/ColinOsborn/following{/other_user}","gists_url":"https://api.github.com/users/ColinOsborn/gists{/gist_id}","starred_url":"https://api.github.com/users/ColinOsborn/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ColinOsborn/subscriptions","organizations_url":"https://api.github.com/users/ColinOsborn/orgs","repos_url":"https://api.github.com/users/ColinOsborn/repos","events_url":"https://api.github.com/users/ColinOsborn/events{/privacy}","received_events_url":"https://api.github.com/users/ColinOsborn/received_events","type":"User","site_admin":false},{"login":"chadellison","id":13648884,"avatar_url":"https://avatars1.githubusercontent.com/u/13648884?v=3","gravatar_id":"","url":"https://api.github.com/users/chadellison","html_url":"https://github.com/chadellison","followers_url":"https://api.github.com/users/chadellison/followers","following_url":"https://api.github.com/users/chadellison/following{/other_user}","gists_url":"https://api.github.com/users/chadellison/gists{/gist_id}","starred_url":"https://api.github.com/users/chadellison/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/chadellison/subscriptions","organizations_url":"https://api.github.com/users/chadellison/orgs","repos_url":"https://api.github.com/users/chadellison/repos","events_url":"https://api.github.com/users/chadellison/events{/privacy}","received_events_url":"https://api.github.com/users/chadellison/received_events","type":"User","site_admin":false},{"login":"lingtran","id":10413480,"avatar_url":"https://avatars0.githubusercontent.com/u/10413480?v=3","gravatar_id":"","url":"https://api.github.com/users/lingtran","html_url":"https://github.com/lingtran","followers_url":"https://api.github.com/users/lingtran/followers","following_url":"https://api.github.com/users/lingtran/following{/other_user}","gists_url":"https://api.github.com/users/lingtran/gists{/gist_id}","starred_url":"https://api.github.com/users/lingtran/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/lingtran/subscriptions","organizations_url":"https://api.github.com/users/lingtran/orgs","repos_url":"https://api.github.com/users/lingtran/repos","events_url":"https://api.github.com/users/lingtran/events{/privacy}","received_events_url":"https://api.github.com/users/lingtran/received_events","type":"User","site_admin":false},{"login":"MsJennyGiraffe","id":14857182,"avatar_url":"https://avatars1.githubusercontent.com/u/14857182?v=3","gravatar_id":"","url":"https://api.github.com/users/MsJennyGiraffe","html_url":"https://github.com/MsJennyGiraffe","followers_url":"https://api.github.com/users/MsJennyGiraffe/followers","following_url":"https://api.github.com/users/MsJennyGiraffe/following{/other_user}","gists_url":"https://api.github.com/users/MsJennyGiraffe/gists{/gist_id}","starred_url":"https://api.github.com/users/MsJennyGiraffe/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/MsJennyGiraffe/subscriptions","organizations_url":"https://api.github.com/users/MsJennyGiraffe/orgs","repos_url":"https://api.github.com/users/MsJennyGiraffe/repos","events_url":"https://api.github.com/users/MsJennyGiraffe/events{/privacy}","received_events_url":"https://api.github.com/users/MsJennyGiraffe/received_events","type":"User","site_admin":false},{"login":"vintagesucks","id":13335308,"avatar_url":"https://avatars3.githubusercontent.com/u/13335308?v=3","gravatar_id":"","url":"https://api.github.com/users/vintagesucks","html_url":"https://github.com/vintagesucks","followers_url":"https://api.github.com/users/vintagesucks/followers","following_url":"https://api.github.com/users/vintagesucks/following{/other_user}","gists_url":"https://api.github.com/users/vintagesucks/gists{/gist_id}","starred_url":"https://api.github.com/users/vintagesucks/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/vintagesucks/subscriptions","organizations_url":"https://api.github.com/users/vintagesucks/orgs","repos_url":"https://api.github.com/users/vintagesucks/repos","events_url":"https://api.github.com/users/vintagesucks/events{/privacy}","received_events_url":"https://api.github.com/users/vintagesucks/received_events","type":"User","site_admin":false},{"login":"treyx","id":9888146,"avatar_url":"https://avatars2.githubusercontent.com/u/9888146?v=3","gravatar_id":"","url":"https://api.github.com/users/treyx","html_url":"https://github.com/treyx","followers_url":"https://api.github.com/users/treyx/followers","following_url":"https://api.github.com/users/treyx/following{/other_user}","gists_url":"https://api.github.com/users/treyx/gists{/gist_id}","starred_url":"https://api.github.com/users/treyx/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/treyx/subscriptions","organizations_url":"https://api.github.com/users/treyx/orgs","repos_url":"https://api.github.com/users/treyx/repos","events_url":"https://api.github.com/users/treyx/events{/privacy}","received_events_url":"https://api.github.com/users/treyx/received_events","type":"User","site_admin":false},{"login":"dunncl15","id":17307269,"avatar_url":"https://avatars0.githubusercontent.com/u/17307269?v=3","gravatar_id":"","url":"https://api.github.com/users/dunncl15","html_url":"https://github.com/dunncl15","followers_url":"https://api.github.com/users/dunncl15/followers","following_url":"https://api.github.com/users/dunncl15/following{/other_user}","gists_url":"https://api.github.com/users/dunncl15/gists{/gist_id}","starred_url":"https://api.github.com/users/dunncl15/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/dunncl15/subscriptions","organizations_url":"https://api.github.com/users/dunncl15/orgs","repos_url":"https://api.github.com/users/dunncl15/repos","events_url":"https://api.github.com/users/dunncl15/events{/privacy}","received_events_url":"https://api.github.com/users/dunncl15/received_events","type":"User","site_admin":false},{"login":"NicholasJacques","id":20036943,"avatar_url":"https://avatars3.githubusercontent.com/u/20036943?v=3","gravatar_id":"","url":"https://api.github.com/users/NicholasJacques","html_url":"https://github.com/NicholasJacques","followers_url":"https://api.github.com/users/NicholasJacques/followers","following_url":"https://api.github.com/users/NicholasJacques/following{/other_user}","gists_url":"https://api.github.com/users/NicholasJacques/gists{/gist_id}","starred_url":"https://api.github.com/users/NicholasJacques/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/NicholasJacques/subscriptions","organizations_url":"https://api.github.com/users/NicholasJacques/orgs","repos_url":"https://api.github.com/users/NicholasJacques/repos","events_url":"https://api.github.com/users/NicholasJacques/events{/privacy}","received_events_url":"https://api.github.com/users/NicholasJacques/received_events","type":"User","site_admin":false},{"login":"paulgrever","id":3664281,"avatar_url":"https://avatars2.githubusercontent.com/u/3664281?v=3","gravatar_id":"","url":"https://api.github.com/users/paulgrever","html_url":"https://github.com/paulgrever","followers_url":"https://api.github.com/users/paulgrever/followers","following_url":"https://api.github.com/users/paulgrever/following{/other_user}","gists_url":"https://api.github.com/users/paulgrever/gists{/gist_id}","starred_url":"https://api.github.com/users/paulgrever/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/paulgrever/subscriptions","organizations_url":"https://api.github.com/users/paulgrever/orgs","repos_url":"https://api.github.com/users/paulgrever/repos","events_url":"https://api.github.com/users/paulgrever/events{/privacy}","received_events_url":"https://api.github.com/users/paulgrever/received_events","type":"User","site_admin":false}]'
+    http_version: 
+  recorded_at: Sat, 08 Jul 2017 23:24:05 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/MDes41?access_token=4e4086ae85c7b0e17fe9edae295fc748a2c7576b
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Sat, 08 Jul 2017 23:24:05 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4927'
+      X-Ratelimit-Reset:
+      - '1499557266'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      Etag:
+      - W/"ce329a8a431a30d6032436feebc17f86"
+      Last-Modified:
+      - Tue, 27 Jun 2017 10:55:23 GMT
+      X-Oauth-Scopes:
+      - ''
+      X-Accepted-Oauth-Scopes:
+      - ''
+      X-Oauth-Client-Id:
+      - 43f42477d5c72fbfd253
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Runtime-Rack:
+      - '0.061206'
+      X-Github-Request-Id:
+      - D3CB:724E:F3A6E9:1BE0D73:59616995
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"MDes41","id":8398525,"avatar_url":"https://avatars0.githubusercontent.com/u/8398525?v=3","gravatar_id":"","url":"https://api.github.com/users/MDes41","html_url":"https://github.com/MDes41","followers_url":"https://api.github.com/users/MDes41/followers","following_url":"https://api.github.com/users/MDes41/following{/other_user}","gists_url":"https://api.github.com/users/MDes41/gists{/gist_id}","starred_url":"https://api.github.com/users/MDes41/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/MDes41/subscriptions","organizations_url":"https://api.github.com/users/MDes41/orgs","repos_url":"https://api.github.com/users/MDes41/repos","events_url":"https://api.github.com/users/MDes41/events{/privacy}","received_events_url":"https://api.github.com/users/MDes41/received_events","type":"User","site_admin":false,"name":"Matt
+        DeMarteau","company":"@turingschool","blog":"","location":"Denver, CO","email":null,"hireable":true,"bio":"Junior
+        developer looking to expand my skills with new projects in the open source
+        community.  I''m in the mountains skiing when I''m not coding in basements.
+        ","public_repos":103,"public_gists":9,"followers":15,"following":29,"created_at":"2014-08-08T21:27:17Z","updated_at":"2017-06-27T10:55:23Z"}'
+    http_version: 
+  recorded_at: Sat, 08 Jul 2017 23:24:05 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/GKhalsa?access_token=4e4086ae85c7b0e17fe9edae295fc748a2c7576b
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Sat, 08 Jul 2017 23:24:05 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4926'
+      X-Ratelimit-Reset:
+      - '1499557266'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      Etag:
+      - W/"0eb507a3f1c8f9ce38b9b86b2dee6bc1"
+      Last-Modified:
+      - Wed, 21 Jun 2017 20:37:57 GMT
+      X-Oauth-Scopes:
+      - ''
+      X-Accepted-Oauth-Scopes:
+      - ''
+      X-Oauth-Client-Id:
+      - 43f42477d5c72fbfd253
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Runtime-Rack:
+      - '0.028785'
+      X-Served-By:
+      - 52437fedc85beec8da3449496900fb9a
+      X-Github-Request-Id:
+      - D3CC:724E:F3A71F:1BE0DD3:59616995
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"GKhalsa","id":11367377,"avatar_url":"https://avatars1.githubusercontent.com/u/11367377?v=3","gravatar_id":"","url":"https://api.github.com/users/GKhalsa","html_url":"https://github.com/GKhalsa","followers_url":"https://api.github.com/users/GKhalsa/followers","following_url":"https://api.github.com/users/GKhalsa/following{/other_user}","gists_url":"https://api.github.com/users/GKhalsa/gists{/gist_id}","starred_url":"https://api.github.com/users/GKhalsa/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/GKhalsa/subscriptions","organizations_url":"https://api.github.com/users/GKhalsa/orgs","repos_url":"https://api.github.com/users/GKhalsa/repos","events_url":"https://api.github.com/users/GKhalsa/events{/privacy}","received_events_url":"https://api.github.com/users/GKhalsa/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"public_repos":95,"public_gists":1,"followers":32,"following":47,"created_at":"2015-03-07T18:27:25Z","updated_at":"2017-06-21T20:37:57Z"}'
+    http_version: 
+  recorded_at: Sat, 08 Jul 2017 23:24:05 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/Salvi6God?access_token=4e4086ae85c7b0e17fe9edae295fc748a2c7576b
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Sat, 08 Jul 2017 23:24:05 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4925'
+      X-Ratelimit-Reset:
+      - '1499557266'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      Etag:
+      - W/"726b130643713cba02c68af89aa4fcf8"
+      Last-Modified:
+      - Fri, 23 Jun 2017 20:35:45 GMT
+      X-Oauth-Scopes:
+      - ''
+      X-Accepted-Oauth-Scopes:
+      - ''
+      X-Oauth-Client-Id:
+      - 43f42477d5c72fbfd253
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Runtime-Rack:
+      - '0.033738'
+      X-Github-Request-Id:
+      - D3CD:724B:4D6310:816EBC:59616995
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"Salvi6God","id":13465112,"avatar_url":"https://avatars0.githubusercontent.com/u/13465112?v=3","gravatar_id":"","url":"https://api.github.com/users/Salvi6God","html_url":"https://github.com/Salvi6God","followers_url":"https://api.github.com/users/Salvi6God/followers","following_url":"https://api.github.com/users/Salvi6God/following{/other_user}","gists_url":"https://api.github.com/users/Salvi6God/gists{/gist_id}","starred_url":"https://api.github.com/users/Salvi6God/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Salvi6God/subscriptions","organizations_url":"https://api.github.com/users/Salvi6God/orgs","repos_url":"https://api.github.com/users/Salvi6God/repos","events_url":"https://api.github.com/users/Salvi6God/events{/privacy}","received_events_url":"https://api.github.com/users/Salvi6God/received_events","type":"User","site_admin":false,"name":"Alex
+        Navarrete","company":null,"blog":"a-navarrete.me","location":"Los Angeles,
+        CA ","email":null,"hireable":true,"bio":"software baengineer ","public_repos":103,"public_gists":4,"followers":20,"following":32,"created_at":"2015-07-23T08:54:17Z","updated_at":"2017-06-23T20:35:45Z"}'
+    http_version: 
+  recorded_at: Sat, 08 Jul 2017 23:24:06 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/NickyBobby?access_token=4e4086ae85c7b0e17fe9edae295fc748a2c7576b
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Sat, 08 Jul 2017 23:24:06 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4924'
+      X-Ratelimit-Reset:
+      - '1499557266'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      Etag:
+      - W/"9c8b4e0028f7ba189bdc3b9d0c0b4083"
+      Last-Modified:
+      - Wed, 17 May 2017 15:59:44 GMT
+      X-Oauth-Scopes:
+      - ''
+      X-Accepted-Oauth-Scopes:
+      - ''
+      X-Oauth-Client-Id:
+      - 43f42477d5c72fbfd253
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Runtime-Rack:
+      - '0.027555'
+      X-Served-By:
+      - 49aa99f015c25437a7443c4d3a58cd17
+      X-Github-Request-Id:
+      - D3CE:724E:F3A793:1BE0E7E:59616996
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"NickyBobby","id":13855453,"avatar_url":"https://avatars2.githubusercontent.com/u/13855453?v=3","gravatar_id":"","url":"https://api.github.com/users/NickyBobby","html_url":"https://github.com/NickyBobby","followers_url":"https://api.github.com/users/NickyBobby/followers","following_url":"https://api.github.com/users/NickyBobby/following{/other_user}","gists_url":"https://api.github.com/users/NickyBobby/gists{/gist_id}","starred_url":"https://api.github.com/users/NickyBobby/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/NickyBobby/subscriptions","organizations_url":"https://api.github.com/users/NickyBobby/orgs","repos_url":"https://api.github.com/users/NickyBobby/repos","events_url":"https://api.github.com/users/NickyBobby/events{/privacy}","received_events_url":"https://api.github.com/users/NickyBobby/received_events","type":"User","site_admin":false,"name":"Nicholas","company":null,"blog":"","location":"Denver,
+        CO","email":null,"hireable":null,"bio":null,"public_repos":76,"public_gists":19,"followers":18,"following":41,"created_at":"2015-08-18T17:09:50Z","updated_at":"2017-05-17T15:59:44Z"}'
+    http_version: 
+  recorded_at: Sat, 08 Jul 2017 23:24:06 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/weilandia?access_token=4e4086ae85c7b0e17fe9edae295fc748a2c7576b
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Sat, 08 Jul 2017 23:24:06 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4923'
+      X-Ratelimit-Reset:
+      - '1499557266'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      Etag:
+      - W/"0465da0f9a2941d2746416da5f890beb"
+      Last-Modified:
+      - Fri, 07 Jul 2017 15:21:36 GMT
+      X-Oauth-Scopes:
+      - ''
+      X-Accepted-Oauth-Scopes:
+      - ''
+      X-Oauth-Client-Id:
+      - 43f42477d5c72fbfd253
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Runtime-Rack:
+      - '0.051491'
+      X-Served-By:
+      - e724c57ebb9961c772a91e2dd7421c8d
+      X-Github-Request-Id:
+      - D3CF:7251:10A17DC:1A2BD11:59616996
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"weilandia","id":13652979,"avatar_url":"https://avatars2.githubusercontent.com/u/13652979?v=3","gravatar_id":"","url":"https://api.github.com/users/weilandia","html_url":"https://github.com/weilandia","followers_url":"https://api.github.com/users/weilandia/followers","following_url":"https://api.github.com/users/weilandia/following{/other_user}","gists_url":"https://api.github.com/users/weilandia/gists{/gist_id}","starred_url":"https://api.github.com/users/weilandia/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/weilandia/subscriptions","organizations_url":"https://api.github.com/users/weilandia/orgs","repos_url":"https://api.github.com/users/weilandia/repos","events_url":"https://api.github.com/users/weilandia/events{/privacy}","received_events_url":"https://api.github.com/users/weilandia/received_events","type":"User","site_admin":false,"name":"Nick
+        Weiland","company":null,"blog":"weilandia.github.io","location":"LA","email":"nickweiland@gmail.com","hireable":true,"bio":null,"public_repos":89,"public_gists":11,"followers":21,"following":22,"created_at":"2015-08-05T02:48:55Z","updated_at":"2017-07-07T15:21:36Z"}'
+    http_version: 
+  recorded_at: Sat, 08 Jul 2017 23:24:06 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/hhoopes?access_token=4e4086ae85c7b0e17fe9edae295fc748a2c7576b
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Sat, 08 Jul 2017 23:24:06 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4922'
+      X-Ratelimit-Reset:
+      - '1499557266'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      Etag:
+      - W/"6e89442b733fb1fc7e44f3c1c846c254"
+      Last-Modified:
+      - Fri, 30 Jun 2017 15:05:38 GMT
+      X-Oauth-Scopes:
+      - ''
+      X-Accepted-Oauth-Scopes:
+      - ''
+      X-Oauth-Client-Id:
+      - 43f42477d5c72fbfd253
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Runtime-Rack:
+      - '0.033860'
+      X-Github-Request-Id:
+      - D3D0:724C:9C02FE:F68300:59616996
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"hhoopes","id":14062214,"avatar_url":"https://avatars1.githubusercontent.com/u/14062214?v=3","gravatar_id":"","url":"https://api.github.com/users/hhoopes","html_url":"https://github.com/hhoopes","followers_url":"https://api.github.com/users/hhoopes/followers","following_url":"https://api.github.com/users/hhoopes/following{/other_user}","gists_url":"https://api.github.com/users/hhoopes/gists{/gist_id}","starred_url":"https://api.github.com/users/hhoopes/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/hhoopes/subscriptions","organizations_url":"https://api.github.com/users/hhoopes/orgs","repos_url":"https://api.github.com/users/hhoopes/repos","events_url":"https://api.github.com/users/hhoopes/events{/privacy}","received_events_url":"https://api.github.com/users/hhoopes/received_events","type":"User","site_admin":false,"name":"Heidi
+        Hoopes","company":null,"blog":"hhoopes.github.io","location":"Denver, CO","email":null,"hireable":null,"bio":"Graduate
+        of Turing School of Software and Design (RoR and JS). Fullstack/backend developer.
+        Nerdily-striped. Hackerspace organizer. ","public_repos":91,"public_gists":6,"followers":15,"following":13,"created_at":"2015-08-31T21:10:59Z","updated_at":"2017-06-30T15:05:38Z"}'
+    http_version: 
+  recorded_at: Sat, 08 Jul 2017 23:24:06 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/Carmer?access_token=4e4086ae85c7b0e17fe9edae295fc748a2c7576b
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Sat, 08 Jul 2017 23:24:07 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4921'
+      X-Ratelimit-Reset:
+      - '1499557266'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      Etag:
+      - W/"c2ab85c51d9262d3a860eefc3cadb5a2"
+      Last-Modified:
+      - Fri, 16 Jun 2017 05:52:04 GMT
+      X-Oauth-Scopes:
+      - ''
+      X-Accepted-Oauth-Scopes:
+      - ''
+      X-Oauth-Client-Id:
+      - 43f42477d5c72fbfd253
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Runtime-Rack:
+      - '0.034311'
+      X-Github-Request-Id:
+      - D3D1:724C:9C031A:F68328:59616996
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"Carmer","id":9501766,"avatar_url":"https://avatars0.githubusercontent.com/u/9501766?v=3","gravatar_id":"","url":"https://api.github.com/users/Carmer","html_url":"https://github.com/Carmer","followers_url":"https://api.github.com/users/Carmer/followers","following_url":"https://api.github.com/users/Carmer/following{/other_user}","gists_url":"https://api.github.com/users/Carmer/gists{/gist_id}","starred_url":"https://api.github.com/users/Carmer/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Carmer/subscriptions","organizations_url":"https://api.github.com/users/Carmer/orgs","repos_url":"https://api.github.com/users/Carmer/repos","events_url":"https://api.github.com/users/Carmer/events{/privacy}","received_events_url":"https://api.github.com/users/Carmer/received_events","type":"User","site_admin":false,"name":"Andrew
+        Carmer","company":null,"blog":"","location":null,"email":"CarmerAndrew@gmail.com","hireable":null,"bio":null,"public_repos":113,"public_gists":32,"followers":104,"following":250,"created_at":"2014-11-01T18:16:34Z","updated_at":"2017-06-16T05:52:04Z"}'
+    http_version: 
+  recorded_at: Sat, 08 Jul 2017 23:24:07 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/brianrip?access_token=4e4086ae85c7b0e17fe9edae295fc748a2c7576b
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Sat, 08 Jul 2017 23:24:07 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4920'
+      X-Ratelimit-Reset:
+      - '1499557266'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      Etag:
+      - W/"033f477064bcc3d01d953aab6fa2b664"
+      Last-Modified:
+      - Fri, 07 Jul 2017 04:26:40 GMT
+      X-Oauth-Scopes:
+      - ''
+      X-Accepted-Oauth-Scopes:
+      - ''
+      X-Oauth-Client-Id:
+      - 43f42477d5c72fbfd253
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Runtime-Rack:
+      - '0.026875'
+      X-Served-By:
+      - 2c18a09f3ac5e4dd1e004af7c5a94769
+      X-Github-Request-Id:
+      - D3D2:724E:F3A87B:1BE0FE3:59616997
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"brianrip","id":11996534,"avatar_url":"https://avatars3.githubusercontent.com/u/11996534?v=3","gravatar_id":"","url":"https://api.github.com/users/brianrip","html_url":"https://github.com/brianrip","followers_url":"https://api.github.com/users/brianrip/followers","following_url":"https://api.github.com/users/brianrip/following{/other_user}","gists_url":"https://api.github.com/users/brianrip/gists{/gist_id}","starred_url":"https://api.github.com/users/brianrip/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/brianrip/subscriptions","organizations_url":"https://api.github.com/users/brianrip/orgs","repos_url":"https://api.github.com/users/brianrip/repos","events_url":"https://api.github.com/users/brianrip/events{/privacy}","received_events_url":"https://api.github.com/users/brianrip/received_events","type":"User","site_admin":false,"name":"Brian
+        Rippeto","company":null,"blog":"","location":null,"email":"rippeto@gmail.com","hireable":null,"bio":null,"public_repos":61,"public_gists":17,"followers":13,"following":15,"created_at":"2015-04-17T15:51:53Z","updated_at":"2017-07-07T04:26:40Z"}'
+    http_version: 
+  recorded_at: Sat, 08 Jul 2017 23:24:07 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/damwhit?access_token=4e4086ae85c7b0e17fe9edae295fc748a2c7576b
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Sat, 08 Jul 2017 23:24:07 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4919'
+      X-Ratelimit-Reset:
+      - '1499557266'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      Etag:
+      - W/"14c059a55cb57217788b7a60da807b19"
+      Last-Modified:
+      - Fri, 07 Jul 2017 00:07:56 GMT
+      X-Oauth-Scopes:
+      - ''
+      X-Accepted-Oauth-Scopes:
+      - ''
+      X-Oauth-Client-Id:
+      - 43f42477d5c72fbfd253
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Runtime-Rack:
+      - '0.032675'
+      X-Served-By:
+      - 7f48e2f7761567e923121f17538d7a6d
+      X-Github-Request-Id:
+      - D3D3:7251:10A188C:1A2BE3A:59616997
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"damwhit","id":13105577,"avatar_url":"https://avatars0.githubusercontent.com/u/13105577?v=3","gravatar_id":"","url":"https://api.github.com/users/damwhit","html_url":"https://github.com/damwhit","followers_url":"https://api.github.com/users/damwhit/followers","following_url":"https://api.github.com/users/damwhit/following{/other_user}","gists_url":"https://api.github.com/users/damwhit/gists{/gist_id}","starred_url":"https://api.github.com/users/damwhit/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/damwhit/subscriptions","organizations_url":"https://api.github.com/users/damwhit/orgs","repos_url":"https://api.github.com/users/damwhit/repos","events_url":"https://api.github.com/users/damwhit/events{/privacy}","received_events_url":"https://api.github.com/users/damwhit/received_events","type":"User","site_admin":false,"name":"David
+        Whitaker","company":"@pointsoflight ","blog":"damwhit.github.io","location":"Denver","email":"damwhit@gmail.com","hireable":null,"bio":"Web
+        Developer @pointsoflight ","public_repos":64,"public_gists":7,"followers":20,"following":28,"created_at":"2015-06-29T16:35:30Z","updated_at":"2017-07-07T00:07:56Z"}'
+    http_version: 
+  recorded_at: Sat, 08 Jul 2017 23:24:07 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/thompickett?access_token=4e4086ae85c7b0e17fe9edae295fc748a2c7576b
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Sat, 08 Jul 2017 23:24:07 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4918'
+      X-Ratelimit-Reset:
+      - '1499557266'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      Etag:
+      - W/"625e8157c4d4db80e6d4f732afcc64b1"
+      Last-Modified:
+      - Sat, 03 Jun 2017 02:20:16 GMT
+      X-Oauth-Scopes:
+      - ''
+      X-Accepted-Oauth-Scopes:
+      - ''
+      X-Oauth-Client-Id:
+      - 43f42477d5c72fbfd253
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Runtime-Rack:
+      - '0.040446'
+      X-Github-Request-Id:
+      - D3D4:724B:4D6362:816F42:59616997
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"thompickett","id":15093580,"avatar_url":"https://avatars0.githubusercontent.com/u/15093580?v=3","gravatar_id":"","url":"https://api.github.com/users/thompickett","html_url":"https://github.com/thompickett","followers_url":"https://api.github.com/users/thompickett/followers","following_url":"https://api.github.com/users/thompickett/following{/other_user}","gists_url":"https://api.github.com/users/thompickett/gists{/gist_id}","starred_url":"https://api.github.com/users/thompickett/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/thompickett/subscriptions","organizations_url":"https://api.github.com/users/thompickett/orgs","repos_url":"https://api.github.com/users/thompickett/repos","events_url":"https://api.github.com/users/thompickett/events{/privacy}","received_events_url":"https://api.github.com/users/thompickett/received_events","type":"User","site_admin":false,"name":"Thom
+        Schlereth(Pickett)","company":null,"blog":"","location":"Denver CO","email":"thomschlereth@gmail.com","hireable":true,"bio":null,"public_repos":72,"public_gists":10,"followers":23,"following":43,"created_at":"2015-10-12T17:49:49Z","updated_at":"2017-06-03T02:20:16Z"}'
+    http_version: 
+  recorded_at: Sat, 08 Jul 2017 23:24:07 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/notmarkmiranda?access_token=4e4086ae85c7b0e17fe9edae295fc748a2c7576b
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Sat, 08 Jul 2017 23:24:08 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4917'
+      X-Ratelimit-Reset:
+      - '1499557266'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      Etag:
+      - W/"eac011050cfe447486f0467001b4033b"
+      Last-Modified:
+      - Sun, 02 Jul 2017 19:37:18 GMT
+      X-Oauth-Scopes:
+      - ''
+      X-Accepted-Oauth-Scopes:
+      - ''
+      X-Oauth-Client-Id:
+      - 43f42477d5c72fbfd253
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Runtime-Rack:
+      - '0.036480'
+      X-Github-Request-Id:
+      - D3D5:724E:F3A906:1BE10CD:59616997
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"notmarkmiranda","id":15822772,"avatar_url":"https://avatars3.githubusercontent.com/u/15822772?v=3","gravatar_id":"","url":"https://api.github.com/users/notmarkmiranda","html_url":"https://github.com/notmarkmiranda","followers_url":"https://api.github.com/users/notmarkmiranda/followers","following_url":"https://api.github.com/users/notmarkmiranda/following{/other_user}","gists_url":"https://api.github.com/users/notmarkmiranda/gists{/gist_id}","starred_url":"https://api.github.com/users/notmarkmiranda/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/notmarkmiranda/subscriptions","organizations_url":"https://api.github.com/users/notmarkmiranda/orgs","repos_url":"https://api.github.com/users/notmarkmiranda/repos","events_url":"https://api.github.com/users/notmarkmiranda/events{/privacy}","received_events_url":"https://api.github.com/users/notmarkmiranda/received_events","type":"User","site_admin":false,"name":"Mark
+        Miranda","company":null,"blog":"markmiranda.ninja","location":"Denver, CO","email":"notmarkmiranda@gmail.com","hireable":true,"bio":null,"public_repos":119,"public_gists":13,"followers":29,"following":36,"created_at":"2015-11-12T19:52:15Z","updated_at":"2017-07-02T19:37:18Z"}'
+    http_version: 
+  recorded_at: Sat, 08 Jul 2017 23:24:08 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/s-espinosa?access_token=4e4086ae85c7b0e17fe9edae295fc748a2c7576b
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Sat, 08 Jul 2017 23:24:08 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4916'
+      X-Ratelimit-Reset:
+      - '1499557266'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      Etag:
+      - W/"3127d698e56cf8a8692d25019b327441"
+      Last-Modified:
+      - Wed, 05 Jul 2017 08:51:04 GMT
+      X-Oauth-Scopes:
+      - ''
+      X-Accepted-Oauth-Scopes:
+      - ''
+      X-Oauth-Client-Id:
+      - 43f42477d5c72fbfd253
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Runtime-Rack:
+      - '0.036293'
+      X-Served-By:
+      - 139317cebd6caf9cd03889139437f00b
+      X-Github-Request-Id:
+      - D3D6:7251:10A18F6:1A2BEE6:59616998
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"s-espinosa","id":10855116,"avatar_url":"https://avatars2.githubusercontent.com/u/10855116?v=3","gravatar_id":"","url":"https://api.github.com/users/s-espinosa","html_url":"https://github.com/s-espinosa","followers_url":"https://api.github.com/users/s-espinosa/followers","following_url":"https://api.github.com/users/s-espinosa/following{/other_user}","gists_url":"https://api.github.com/users/s-espinosa/gists{/gist_id}","starred_url":"https://api.github.com/users/s-espinosa/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/s-espinosa/subscriptions","organizations_url":"https://api.github.com/users/s-espinosa/orgs","repos_url":"https://api.github.com/users/s-espinosa/repos","events_url":"https://api.github.com/users/s-espinosa/events{/privacy}","received_events_url":"https://api.github.com/users/s-espinosa/received_events","type":"User","site_admin":false,"name":"Sal
+        Espinosa","company":null,"blog":"http://s-espinosa.github.io/","location":"United
+        States","email":null,"hireable":true,"bio":"Web Dev in Denver, CO","public_repos":99,"public_gists":18,"followers":32,"following":29,"created_at":"2015-02-04T20:34:42Z","updated_at":"2017-07-05T08:51:04Z"}'
+    http_version: 
+  recorded_at: Sat, 08 Jul 2017 23:24:08 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/drew-t?access_token=4e4086ae85c7b0e17fe9edae295fc748a2c7576b
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Sat, 08 Jul 2017 23:24:08 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4915'
+      X-Ratelimit-Reset:
+      - '1499557266'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      Etag:
+      - W/"7e1b23fc193823ac9dd6874092e874c2"
+      Last-Modified:
+      - Sun, 25 Jun 2017 04:31:58 GMT
+      X-Oauth-Scopes:
+      - ''
+      X-Accepted-Oauth-Scopes:
+      - ''
+      X-Oauth-Client-Id:
+      - 43f42477d5c72fbfd253
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Runtime-Rack:
+      - '0.024848'
+      X-Served-By:
+      - edf23fdc48375d9066b698b8d98062e9
+      X-Github-Request-Id:
+      - D3D7:724E:F3A95A:1BE115C:59616998
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"drew-t","id":12980955,"avatar_url":"https://avatars3.githubusercontent.com/u/12980955?v=3","gravatar_id":"","url":"https://api.github.com/users/drew-t","html_url":"https://github.com/drew-t","followers_url":"https://api.github.com/users/drew-t/followers","following_url":"https://api.github.com/users/drew-t/following{/other_user}","gists_url":"https://api.github.com/users/drew-t/gists{/gist_id}","starred_url":"https://api.github.com/users/drew-t/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/drew-t/subscriptions","organizations_url":"https://api.github.com/users/drew-t/orgs","repos_url":"https://api.github.com/users/drew-t/repos","events_url":"https://api.github.com/users/drew-t/events{/privacy}","received_events_url":"https://api.github.com/users/drew-t/received_events","type":"User","site_admin":false,"name":"Drew
+        Thompson","company":null,"blog":"","location":"Denver, CO","email":null,"hireable":null,"bio":null,"public_repos":50,"public_gists":9,"followers":13,"following":15,"created_at":"2015-06-20T18:42:31Z","updated_at":"2017-06-25T04:31:58Z"}'
+    http_version: 
+  recorded_at: Sat, 08 Jul 2017 23:24:08 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/jwashke?access_token=4e4086ae85c7b0e17fe9edae295fc748a2c7576b
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Sat, 08 Jul 2017 23:24:08 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4914'
+      X-Ratelimit-Reset:
+      - '1499557266'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      Etag:
+      - W/"3ba1d07bfa9160c282e85fc7f1d6b8d1"
+      Last-Modified:
+      - Tue, 27 Jun 2017 02:21:19 GMT
+      X-Oauth-Scopes:
+      - ''
+      X-Accepted-Oauth-Scopes:
+      - ''
+      X-Oauth-Client-Id:
+      - 43f42477d5c72fbfd253
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Runtime-Rack:
+      - '0.038098'
+      X-Served-By:
+      - 77fbfb53269bbb85f82f23584d59f7c1
+      X-Github-Request-Id:
+      - D3D8:724E:F3A989:1BE11AF:59616998
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"jwashke","id":14855129,"avatar_url":"https://avatars3.githubusercontent.com/u/14855129?v=3","gravatar_id":"","url":"https://api.github.com/users/jwashke","html_url":"https://github.com/jwashke","followers_url":"https://api.github.com/users/jwashke/followers","following_url":"https://api.github.com/users/jwashke/following{/other_user}","gists_url":"https://api.github.com/users/jwashke/gists{/gist_id}","starred_url":"https://api.github.com/users/jwashke/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jwashke/subscriptions","organizations_url":"https://api.github.com/users/jwashke/orgs","repos_url":"https://api.github.com/users/jwashke/repos","events_url":"https://api.github.com/users/jwashke/events{/privacy}","received_events_url":"https://api.github.com/users/jwashke/received_events","type":"User","site_admin":false,"name":"Josh
+        Washke","company":null,"blog":"http://www.joshuawashke.me/","location":"Denver,
+        CO","email":"jwashke@icloud.com","hireable":null,"bio":"Software Developer
+        trying not to break the internet.","public_repos":56,"public_gists":13,"followers":13,"following":18,"created_at":"2015-09-26T23:32:03Z","updated_at":"2017-06-27T02:21:19Z"}'
+    http_version: 
+  recorded_at: Sat, 08 Jul 2017 23:24:08 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/kristindiannefoss?access_token=4e4086ae85c7b0e17fe9edae295fc748a2c7576b
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Sat, 08 Jul 2017 23:24:09 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4913'
+      X-Ratelimit-Reset:
+      - '1499557266'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      Etag:
+      - W/"88e97842a267b9eb2f096b8519f1dfae"
+      Last-Modified:
+      - Sat, 29 Apr 2017 22:16:30 GMT
+      X-Oauth-Scopes:
+      - ''
+      X-Accepted-Oauth-Scopes:
+      - ''
+      X-Oauth-Client-Id:
+      - 43f42477d5c72fbfd253
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Runtime-Rack:
+      - '0.043568'
+      X-Github-Request-Id:
+      - D3D9:7251:10A196A:1A2BF9B:59616998
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"kristindiannefoss","id":15794034,"avatar_url":"https://avatars0.githubusercontent.com/u/15794034?v=3","gravatar_id":"","url":"https://api.github.com/users/kristindiannefoss","html_url":"https://github.com/kristindiannefoss","followers_url":"https://api.github.com/users/kristindiannefoss/followers","following_url":"https://api.github.com/users/kristindiannefoss/following{/other_user}","gists_url":"https://api.github.com/users/kristindiannefoss/gists{/gist_id}","starred_url":"https://api.github.com/users/kristindiannefoss/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/kristindiannefoss/subscriptions","organizations_url":"https://api.github.com/users/kristindiannefoss/orgs","repos_url":"https://api.github.com/users/kristindiannefoss/repos","events_url":"https://api.github.com/users/kristindiannefoss/events{/privacy}","received_events_url":"https://api.github.com/users/kristindiannefoss/received_events","type":"User","site_admin":false,"name":"Kristin
+        Foss","company":null,"blog":"","location":"Denver, Colorado","email":"kris.foss@gmail.com","hireable":true,"bio":null,"public_repos":64,"public_gists":11,"followers":23,"following":46,"created_at":"2015-11-11T03:20:46Z","updated_at":"2017-04-29T22:16:30Z"}'
+    http_version: 
+  recorded_at: Sat, 08 Jul 2017 23:24:09 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/stoked-zz?access_token=4e4086ae85c7b0e17fe9edae295fc748a2c7576b
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Sat, 08 Jul 2017 23:24:09 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4912'
+      X-Ratelimit-Reset:
+      - '1499557266'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      Etag:
+      - W/"9e34ae2886436791de4e951db79e3b83"
+      Last-Modified:
+      - Tue, 11 Oct 2016 12:38:57 GMT
+      X-Oauth-Scopes:
+      - ''
+      X-Accepted-Oauth-Scopes:
+      - ''
+      X-Oauth-Client-Id:
+      - 43f42477d5c72fbfd253
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Runtime-Rack:
+      - '0.034551'
+      X-Served-By:
+      - 52437fedc85beec8da3449496900fb9a
+      X-Github-Request-Id:
+      - D3DA:7251:10A1994:1A2BFE1:59616999
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"stoked-zz","id":13973828,"avatar_url":"https://avatars0.githubusercontent.com/u/13973828?v=3","gravatar_id":"","url":"https://api.github.com/users/stoked-zz","html_url":"https://github.com/stoked-zz","followers_url":"https://api.github.com/users/stoked-zz/followers","following_url":"https://api.github.com/users/stoked-zz/following{/other_user}","gists_url":"https://api.github.com/users/stoked-zz/gists{/gist_id}","starred_url":"https://api.github.com/users/stoked-zz/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/stoked-zz/subscriptions","organizations_url":"https://api.github.com/users/stoked-zz/orgs","repos_url":"https://api.github.com/users/stoked-zz/repos","events_url":"https://api.github.com/users/stoked-zz/events{/privacy}","received_events_url":"https://api.github.com/users/stoked-zz/received_events","type":"User","site_admin":false,"name":"Amie
+        Lynn","company":"Salesforce.com","blog":"","location":"San Francisco, CA","email":null,"hireable":true,"bio":null,"public_repos":2,"public_gists":1,"followers":1712,"following":32492,"created_at":"2015-08-26T02:33:22Z","updated_at":"2016-10-11T12:38:57Z"}'
+    http_version: 
+  recorded_at: Sat, 08 Jul 2017 23:24:09 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/adamhundley?access_token=4e4086ae85c7b0e17fe9edae295fc748a2c7576b
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Sat, 08 Jul 2017 23:24:09 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4911'
+      X-Ratelimit-Reset:
+      - '1499557266'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      Etag:
+      - W/"d39763451dbbc70350f9eaa981a8b980"
+      Last-Modified:
+      - Fri, 16 Jun 2017 15:10:12 GMT
+      X-Oauth-Scopes:
+      - ''
+      X-Accepted-Oauth-Scopes:
+      - ''
+      X-Oauth-Client-Id:
+      - 43f42477d5c72fbfd253
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Runtime-Rack:
+      - '0.042027'
+      X-Served-By:
+      - 77fbfb53269bbb85f82f23584d59f7c1
+      X-Github-Request-Id:
+      - D3DB:724E:F3A9FA:1BE128B:59616999
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"adamhundley","id":11205612,"avatar_url":"https://avatars2.githubusercontent.com/u/11205612?v=3","gravatar_id":"","url":"https://api.github.com/users/adamhundley","html_url":"https://github.com/adamhundley","followers_url":"https://api.github.com/users/adamhundley/followers","following_url":"https://api.github.com/users/adamhundley/following{/other_user}","gists_url":"https://api.github.com/users/adamhundley/gists{/gist_id}","starred_url":"https://api.github.com/users/adamhundley/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/adamhundley/subscriptions","organizations_url":"https://api.github.com/users/adamhundley/orgs","repos_url":"https://api.github.com/users/adamhundley/repos","events_url":"https://api.github.com/users/adamhundley/events{/privacy}","received_events_url":"https://api.github.com/users/adamhundley/received_events","type":"User","site_admin":false,"name":"Adam
+        Hundley","company":null,"blog":"","location":"Denver, CO","email":"adamhundley@gmail.com","hireable":null,"bio":null,"public_repos":50,"public_gists":10,"followers":19,"following":27,"created_at":"2015-02-26T03:59:18Z","updated_at":"2017-06-16T15:10:12Z"}'
+    http_version: 
+  recorded_at: Sat, 08 Jul 2017 23:24:09 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/kamiboers?access_token=4e4086ae85c7b0e17fe9edae295fc748a2c7576b
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Sat, 08 Jul 2017 23:24:09 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4910'
+      X-Ratelimit-Reset:
+      - '1499557266'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      Etag:
+      - W/"669ba19047b7d819b125b23ca59b55ec"
+      Last-Modified:
+      - Mon, 05 Jun 2017 06:07:01 GMT
+      X-Oauth-Scopes:
+      - ''
+      X-Accepted-Oauth-Scopes:
+      - ''
+      X-Oauth-Client-Id:
+      - 43f42477d5c72fbfd253
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Runtime-Rack:
+      - '0.041407'
+      X-Github-Request-Id:
+      - D3DC:7251:10A19E9:1A2C066:59616999
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"kamiboers","id":15680831,"avatar_url":"https://avatars0.githubusercontent.com/u/15680831?v=3","gravatar_id":"","url":"https://api.github.com/users/kamiboers","html_url":"https://github.com/kamiboers","followers_url":"https://api.github.com/users/kamiboers/followers","following_url":"https://api.github.com/users/kamiboers/following{/other_user}","gists_url":"https://api.github.com/users/kamiboers/gists{/gist_id}","starred_url":"https://api.github.com/users/kamiboers/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/kamiboers/subscriptions","organizations_url":"https://api.github.com/users/kamiboers/orgs","repos_url":"https://api.github.com/users/kamiboers/repos","events_url":"https://api.github.com/users/kamiboers/events{/privacy}","received_events_url":"https://api.github.com/users/kamiboers/received_events","type":"User","site_admin":false,"name":"Kami
+        Boers","company":null,"blog":"","location":null,"email":"kamiboers@gmail.com","hireable":null,"bio":null,"public_repos":53,"public_gists":12,"followers":10,"following":20,"created_at":"2015-11-06T00:45:39Z","updated_at":"2017-06-05T06:07:01Z"}'
+    http_version: 
+  recorded_at: Sat, 08 Jul 2017 23:24:09 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/icorson3?access_token=4e4086ae85c7b0e17fe9edae295fc748a2c7576b
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Sat, 08 Jul 2017 23:24:10 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4909'
+      X-Ratelimit-Reset:
+      - '1499557266'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      Etag:
+      - W/"395182aeadb17add8358ed1200b5635e"
+      Last-Modified:
+      - Mon, 26 Jun 2017 15:47:17 GMT
+      X-Oauth-Scopes:
+      - ''
+      X-Accepted-Oauth-Scopes:
+      - ''
+      X-Oauth-Client-Id:
+      - 43f42477d5c72fbfd253
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Runtime-Rack:
+      - '0.042258'
+      X-Github-Request-Id:
+      - D3DD:724B:4D63A6:816FCB:5961699A
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"icorson3","id":14942680,"avatar_url":"https://avatars2.githubusercontent.com/u/14942680?v=3","gravatar_id":"","url":"https://api.github.com/users/icorson3","html_url":"https://github.com/icorson3","followers_url":"https://api.github.com/users/icorson3/followers","following_url":"https://api.github.com/users/icorson3/following{/other_user}","gists_url":"https://api.github.com/users/icorson3/gists{/gist_id}","starred_url":"https://api.github.com/users/icorson3/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/icorson3/subscriptions","organizations_url":"https://api.github.com/users/icorson3/orgs","repos_url":"https://api.github.com/users/icorson3/repos","events_url":"https://api.github.com/users/icorson3/events{/privacy}","received_events_url":"https://api.github.com/users/icorson3/received_events","type":"User","site_admin":false,"name":"Ilana
+        Corson","company":null,"blog":"","location":"Denver, CO","email":null,"hireable":true,"bio":null,"public_repos":24,"public_gists":13,"followers":11,"following":7,"created_at":"2015-10-02T15:12:44Z","updated_at":"2017-06-26T15:47:17Z"}'
+    http_version: 
+  recorded_at: Sat, 08 Jul 2017 23:24:10 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/Jbern16?access_token=4e4086ae85c7b0e17fe9edae295fc748a2c7576b
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Sat, 08 Jul 2017 23:24:10 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4908'
+      X-Ratelimit-Reset:
+      - '1499557266'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      Etag:
+      - W/"2fb57dfb2e2520d12eb970eb21c18a21"
+      Last-Modified:
+      - Sat, 24 Jun 2017 03:43:32 GMT
+      X-Oauth-Scopes:
+      - ''
+      X-Accepted-Oauth-Scopes:
+      - ''
+      X-Oauth-Client-Id:
+      - 43f42477d5c72fbfd253
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Runtime-Rack:
+      - '0.026740'
+      X-Served-By:
+      - bae57931a6fe678a3dffe9be8e7819c8
+      X-Github-Request-Id:
+      - D3DE:7251:10A1A4D:1A2C0FE:5961699A
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"Jbern16","id":13852077,"avatar_url":"https://avatars3.githubusercontent.com/u/13852077?v=3","gravatar_id":"","url":"https://api.github.com/users/Jbern16","html_url":"https://github.com/Jbern16","followers_url":"https://api.github.com/users/Jbern16/followers","following_url":"https://api.github.com/users/Jbern16/following{/other_user}","gists_url":"https://api.github.com/users/Jbern16/gists{/gist_id}","starred_url":"https://api.github.com/users/Jbern16/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Jbern16/subscriptions","organizations_url":"https://api.github.com/users/Jbern16/orgs","repos_url":"https://api.github.com/users/Jbern16/repos","events_url":"https://api.github.com/users/Jbern16/events{/privacy}","received_events_url":"https://api.github.com/users/Jbern16/received_events","type":"User","site_admin":false,"name":"Jonathan
+        Bernesser","company":null,"blog":"jbernesser.me","location":"New York City","email":null,"hireable":true,"bio":null,"public_repos":52,"public_gists":12,"followers":18,"following":13,"created_at":"2015-08-18T13:25:33Z","updated_at":"2017-06-24T03:43:32Z"}'
+    http_version: 
+  recorded_at: Sat, 08 Jul 2017 23:24:10 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/jdliss?access_token=4e4086ae85c7b0e17fe9edae295fc748a2c7576b
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Sat, 08 Jul 2017 23:24:10 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4907'
+      X-Ratelimit-Reset:
+      - '1499557266'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      Etag:
+      - W/"88c2357fb0d57cb1ab08de30261d0855"
+      Last-Modified:
+      - Tue, 27 Jun 2017 16:03:18 GMT
+      X-Oauth-Scopes:
+      - ''
+      X-Accepted-Oauth-Scopes:
+      - ''
+      X-Oauth-Client-Id:
+      - 43f42477d5c72fbfd253
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Runtime-Rack:
+      - '0.036731'
+      X-Github-Request-Id:
+      - D3DF:724C:9C0475:F6854D:5961699A
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"jdliss","id":8560631,"avatar_url":"https://avatars3.githubusercontent.com/u/8560631?v=3","gravatar_id":"","url":"https://api.github.com/users/jdliss","html_url":"https://github.com/jdliss","followers_url":"https://api.github.com/users/jdliss/followers","following_url":"https://api.github.com/users/jdliss/following{/other_user}","gists_url":"https://api.github.com/users/jdliss/gists{/gist_id}","starred_url":"https://api.github.com/users/jdliss/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jdliss/subscriptions","organizations_url":"https://api.github.com/users/jdliss/orgs","repos_url":"https://api.github.com/users/jdliss/repos","events_url":"https://api.github.com/users/jdliss/events{/privacy}","received_events_url":"https://api.github.com/users/jdliss/received_events","type":"User","site_admin":false,"name":"Jonathan
+        Liss","company":null,"blog":"","location":"Asheville, NC","email":null,"hireable":true,"bio":"I
+        tell computers how to live their lives","public_repos":59,"public_gists":5,"followers":19,"following":18,"created_at":"2014-08-26T19:09:16Z","updated_at":"2017-06-27T16:03:18Z"}'
+    http_version: 
+  recorded_at: Sat, 08 Jul 2017 23:24:10 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/ColinOsborn?access_token=4e4086ae85c7b0e17fe9edae295fc748a2c7576b
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Sat, 08 Jul 2017 23:24:10 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4906'
+      X-Ratelimit-Reset:
+      - '1499557266'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      Etag:
+      - W/"b72a418b211cce1cada5c45ee0632532"
+      Last-Modified:
+      - Sun, 18 Jun 2017 04:26:34 GMT
+      X-Oauth-Scopes:
+      - ''
+      X-Accepted-Oauth-Scopes:
+      - ''
+      X-Oauth-Client-Id:
+      - 43f42477d5c72fbfd253
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Runtime-Rack:
+      - '0.027280'
+      X-Served-By:
+      - bd82876e9bf04990f289ba22f246ee9b
+      X-Github-Request-Id:
+      - D3E0:724C:9C0488:F68569:5961699A
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"ColinOsborn","id":13109607,"avatar_url":"https://avatars2.githubusercontent.com/u/13109607?v=3","gravatar_id":"","url":"https://api.github.com/users/ColinOsborn","html_url":"https://github.com/ColinOsborn","followers_url":"https://api.github.com/users/ColinOsborn/followers","following_url":"https://api.github.com/users/ColinOsborn/following{/other_user}","gists_url":"https://api.github.com/users/ColinOsborn/gists{/gist_id}","starred_url":"https://api.github.com/users/ColinOsborn/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ColinOsborn/subscriptions","organizations_url":"https://api.github.com/users/ColinOsborn/orgs","repos_url":"https://api.github.com/users/ColinOsborn/repos","events_url":"https://api.github.com/users/ColinOsborn/events{/privacy}","received_events_url":"https://api.github.com/users/ColinOsborn/received_events","type":"User","site_admin":false,"name":"Colin
+        Osborn","company":"Rof.net","blog":"","location":"Carbondale, Colorado","email":"Colin.Osborn@gmail.com","hireable":true,"bio":"Web
+        Developer @ Rof.net\r\nFormer Student @ Turing School of Software & Design\r\n","public_repos":123,"public_gists":8,"followers":8,"following":16,"created_at":"2015-06-29T22:44:49Z","updated_at":"2017-06-18T04:26:34Z"}'
+    http_version: 
+  recorded_at: Sat, 08 Jul 2017 23:24:11 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/chadellison?access_token=4e4086ae85c7b0e17fe9edae295fc748a2c7576b
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Sat, 08 Jul 2017 23:24:11 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4905'
+      X-Ratelimit-Reset:
+      - '1499557266'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      Etag:
+      - W/"5b5b9a139cb8aa232c899c27d1d4b4fa"
+      Last-Modified:
+      - Thu, 29 Jun 2017 19:46:54 GMT
+      X-Oauth-Scopes:
+      - ''
+      X-Accepted-Oauth-Scopes:
+      - ''
+      X-Oauth-Client-Id:
+      - 43f42477d5c72fbfd253
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Runtime-Rack:
+      - '0.039048'
+      X-Served-By:
+      - 15bc4ab707db6d6b474783868c7cc828
+      X-Github-Request-Id:
+      - D3E1:724E:F3AAFC:1BE144E:5961699B
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"chadellison","id":13648884,"avatar_url":"https://avatars1.githubusercontent.com/u/13648884?v=3","gravatar_id":"","url":"https://api.github.com/users/chadellison","html_url":"https://github.com/chadellison","followers_url":"https://api.github.com/users/chadellison/followers","following_url":"https://api.github.com/users/chadellison/following{/other_user}","gists_url":"https://api.github.com/users/chadellison/gists{/gist_id}","starred_url":"https://api.github.com/users/chadellison/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/chadellison/subscriptions","organizations_url":"https://api.github.com/users/chadellison/orgs","repos_url":"https://api.github.com/users/chadellison/repos","events_url":"https://api.github.com/users/chadellison/events{/privacy}","received_events_url":"https://api.github.com/users/chadellison/received_events","type":"User","site_admin":false,"name":"Chad
+        Ellison","company":null,"blog":"","location":null,"email":"chad.ellison0123@gmail.com","hireable":null,"bio":null,"public_repos":135,"public_gists":6,"followers":10,"following":21,"created_at":"2015-08-04T19:57:37Z","updated_at":"2017-06-29T19:46:54Z"}'
+    http_version: 
+  recorded_at: Sat, 08 Jul 2017 23:24:11 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/lingtran?access_token=4e4086ae85c7b0e17fe9edae295fc748a2c7576b
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Sat, 08 Jul 2017 23:24:11 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4904'
+      X-Ratelimit-Reset:
+      - '1499557266'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      Etag:
+      - W/"1360c254eebfefdd4be4d1340d4d4679"
+      Last-Modified:
+      - Sun, 02 Jul 2017 02:38:38 GMT
+      X-Oauth-Scopes:
+      - ''
+      X-Accepted-Oauth-Scopes:
+      - ''
+      X-Oauth-Client-Id:
+      - 43f42477d5c72fbfd253
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Runtime-Rack:
+      - '0.041457'
+      X-Github-Request-Id:
+      - D3E2:7251:10A1AEC:1A2C1F3:5961699B
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"lingtran","id":10413480,"avatar_url":"https://avatars0.githubusercontent.com/u/10413480?v=3","gravatar_id":"","url":"https://api.github.com/users/lingtran","html_url":"https://github.com/lingtran","followers_url":"https://api.github.com/users/lingtran/followers","following_url":"https://api.github.com/users/lingtran/following{/other_user}","gists_url":"https://api.github.com/users/lingtran/gists{/gist_id}","starred_url":"https://api.github.com/users/lingtran/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/lingtran/subscriptions","organizations_url":"https://api.github.com/users/lingtran/orgs","repos_url":"https://api.github.com/users/lingtran/repos","events_url":"https://api.github.com/users/lingtran/events{/privacy}","received_events_url":"https://api.github.com/users/lingtran/received_events","type":"User","site_admin":false,"name":"Ling
+        Tran","company":"@ThoughtWorksInc ","blog":"https://www.linkedin.com/in/tranling","location":"Chicago","email":null,"hireable":null,"bio":null,"public_repos":74,"public_gists":10,"followers":14,"following":9,"created_at":"2015-01-06T06:04:00Z","updated_at":"2017-07-02T02:38:38Z"}'
+    http_version: 
+  recorded_at: Sat, 08 Jul 2017 23:24:11 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/MsJennyGiraffe?access_token=4e4086ae85c7b0e17fe9edae295fc748a2c7576b
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Sat, 08 Jul 2017 23:24:11 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4903'
+      X-Ratelimit-Reset:
+      - '1499557266'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      Etag:
+      - W/"c8bfd8d113927f9c99fad948383a5a70"
+      Last-Modified:
+      - Sat, 08 Jul 2017 07:23:24 GMT
+      X-Oauth-Scopes:
+      - ''
+      X-Accepted-Oauth-Scopes:
+      - ''
+      X-Oauth-Client-Id:
+      - 43f42477d5c72fbfd253
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Runtime-Rack:
+      - '0.036889'
+      X-Github-Request-Id:
+      - D3E3:724E:F3AB50:1BE14DC:5961699B
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"MsJennyGiraffe","id":14857182,"avatar_url":"https://avatars1.githubusercontent.com/u/14857182?v=3","gravatar_id":"","url":"https://api.github.com/users/MsJennyGiraffe","html_url":"https://github.com/MsJennyGiraffe","followers_url":"https://api.github.com/users/MsJennyGiraffe/followers","following_url":"https://api.github.com/users/MsJennyGiraffe/following{/other_user}","gists_url":"https://api.github.com/users/MsJennyGiraffe/gists{/gist_id}","starred_url":"https://api.github.com/users/MsJennyGiraffe/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/MsJennyGiraffe/subscriptions","organizations_url":"https://api.github.com/users/MsJennyGiraffe/orgs","repos_url":"https://api.github.com/users/MsJennyGiraffe/repos","events_url":"https://api.github.com/users/MsJennyGiraffe/events{/privacy}","received_events_url":"https://api.github.com/users/MsJennyGiraffe/received_events","type":"User","site_admin":false,"name":"Jennifer
+        Soden","company":null,"blog":"","location":"Denver, CO","email":"jennifersoden@hotmail.com","hireable":null,"bio":null,"public_repos":55,"public_gists":7,"followers":17,"following":41,"created_at":"2015-09-27T05:57:19Z","updated_at":"2017-07-08T07:23:24Z"}'
+    http_version: 
+  recorded_at: Sat, 08 Jul 2017 23:24:11 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/vintagesucks?access_token=4e4086ae85c7b0e17fe9edae295fc748a2c7576b
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Sat, 08 Jul 2017 23:24:12 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4902'
+      X-Ratelimit-Reset:
+      - '1499557266'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      Etag:
+      - W/"b9c064e092feb5b5d2c5225c53e7c17e"
+      Last-Modified:
+      - Thu, 06 Jul 2017 07:38:23 GMT
+      X-Oauth-Scopes:
+      - ''
+      X-Accepted-Oauth-Scopes:
+      - ''
+      X-Oauth-Client-Id:
+      - 43f42477d5c72fbfd253
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Runtime-Rack:
+      - '0.024143'
+      X-Served-By:
+      - 1e9204dbc0447a6f39c3b3c44d87b3f8
+      X-Github-Request-Id:
+      - D3E4:7251:10A1B3F:1A2C272:5961699B
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"vintagesucks","id":13335308,"avatar_url":"https://avatars3.githubusercontent.com/u/13335308?v=3","gravatar_id":"","url":"https://api.github.com/users/vintagesucks","html_url":"https://github.com/vintagesucks","followers_url":"https://api.github.com/users/vintagesucks/followers","following_url":"https://api.github.com/users/vintagesucks/following{/other_user}","gists_url":"https://api.github.com/users/vintagesucks/gists{/gist_id}","starred_url":"https://api.github.com/users/vintagesucks/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/vintagesucks/subscriptions","organizations_url":"https://api.github.com/users/vintagesucks/orgs","repos_url":"https://api.github.com/users/vintagesucks/repos","events_url":"https://api.github.com/users/vintagesucks/events{/privacy}","received_events_url":"https://api.github.com/users/vintagesucks/received_events","type":"User","site_admin":false,"name":"Nikolas
+        Evers","company":"@ECOMAI","blog":"","location":"Oldenburg, Germany","email":null,"hireable":null,"bio":":bowtie:
+        @Shopware Certified Developer","public_repos":12,"public_gists":2,"followers":14,"following":32,"created_at":"2015-07-14T15:31:56Z","updated_at":"2017-07-06T07:38:23Z"}'
+    http_version: 
+  recorded_at: Sat, 08 Jul 2017 23:24:12 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/treyx?access_token=4e4086ae85c7b0e17fe9edae295fc748a2c7576b
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Sat, 08 Jul 2017 23:24:12 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4901'
+      X-Ratelimit-Reset:
+      - '1499557266'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      Etag:
+      - W/"c02d93b0be2342d0dbd052076033b0b5"
+      Last-Modified:
+      - Thu, 06 Jul 2017 22:05:15 GMT
+      X-Oauth-Scopes:
+      - ''
+      X-Accepted-Oauth-Scopes:
+      - ''
+      X-Oauth-Client-Id:
+      - 43f42477d5c72fbfd253
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Runtime-Rack:
+      - '0.041711'
+      X-Served-By:
+      - 10ea50bffaded85949561216def301f3
+      X-Github-Request-Id:
+      - D3E5:724E:F3AB9A:1BE1558:5961699C
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"treyx","id":9888146,"avatar_url":"https://avatars2.githubusercontent.com/u/9888146?v=3","gravatar_id":"","url":"https://api.github.com/users/treyx","html_url":"https://github.com/treyx","followers_url":"https://api.github.com/users/treyx/followers","following_url":"https://api.github.com/users/treyx/following{/other_user}","gists_url":"https://api.github.com/users/treyx/gists{/gist_id}","starred_url":"https://api.github.com/users/treyx/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/treyx/subscriptions","organizations_url":"https://api.github.com/users/treyx/orgs","repos_url":"https://api.github.com/users/treyx/repos","events_url":"https://api.github.com/users/treyx/events{/privacy}","received_events_url":"https://api.github.com/users/treyx/received_events","type":"User","site_admin":false,"name":"Trey
+        Tomlinson","company":"CaptainU","blog":"","location":"Denver","email":null,"hireable":null,"bio":null,"public_repos":26,"public_gists":2,"followers":47,"following":53,"created_at":"2014-11-21T18:55:10Z","updated_at":"2017-07-06T22:05:15Z"}'
+    http_version: 
+  recorded_at: Sat, 08 Jul 2017 23:24:12 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/dunncl15?access_token=4e4086ae85c7b0e17fe9edae295fc748a2c7576b
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Sat, 08 Jul 2017 23:24:12 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4900'
+      X-Ratelimit-Reset:
+      - '1499557266'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      Etag:
+      - W/"bd46555317c901c4b1ab69d0b7486d57"
+      Last-Modified:
+      - Tue, 27 Jun 2017 22:09:16 GMT
+      X-Oauth-Scopes:
+      - ''
+      X-Accepted-Oauth-Scopes:
+      - ''
+      X-Oauth-Client-Id:
+      - 43f42477d5c72fbfd253
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Runtime-Rack:
+      - '0.035703'
+      X-Github-Request-Id:
+      - D3E6:724E:F3ABBA:1BE1596:5961699C
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"dunncl15","id":17307269,"avatar_url":"https://avatars0.githubusercontent.com/u/17307269?v=3","gravatar_id":"","url":"https://api.github.com/users/dunncl15","html_url":"https://github.com/dunncl15","followers_url":"https://api.github.com/users/dunncl15/followers","following_url":"https://api.github.com/users/dunncl15/following{/other_user}","gists_url":"https://api.github.com/users/dunncl15/gists{/gist_id}","starred_url":"https://api.github.com/users/dunncl15/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/dunncl15/subscriptions","organizations_url":"https://api.github.com/users/dunncl15/orgs","repos_url":"https://api.github.com/users/dunncl15/repos","events_url":"https://api.github.com/users/dunncl15/events{/privacy}","received_events_url":"https://api.github.com/users/dunncl15/received_events","type":"User","site_admin":false,"name":"Charlie
+        Dunn","company":null,"blog":"","location":"Denver, CO","email":"dunnc1551@gmail.com","hireable":true,"bio":"Front-end
+        development student at Turing School of Software & Design.","public_repos":45,"public_gists":7,"followers":3,"following":6,"created_at":"2016-02-18T03:25:37Z","updated_at":"2017-06-27T22:09:16Z"}'
+    http_version: 
+  recorded_at: Sat, 08 Jul 2017 23:24:12 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/NicholasJacques?access_token=4e4086ae85c7b0e17fe9edae295fc748a2c7576b
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Sat, 08 Jul 2017 23:24:12 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4899'
+      X-Ratelimit-Reset:
+      - '1499557266'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      Etag:
+      - W/"e95ca0ef91e242ed213fae089a4001e6"
+      Last-Modified:
+      - Wed, 05 Jul 2017 05:45:37 GMT
+      X-Oauth-Scopes:
+      - ''
+      X-Accepted-Oauth-Scopes:
+      - ''
+      X-Oauth-Client-Id:
+      - 43f42477d5c72fbfd253
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Runtime-Rack:
+      - '0.042835'
+      X-Github-Request-Id:
+      - D3E7:724B:4D640A:817086:5961699C
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"NicholasJacques","id":20036943,"avatar_url":"https://avatars3.githubusercontent.com/u/20036943?v=3","gravatar_id":"","url":"https://api.github.com/users/NicholasJacques","html_url":"https://github.com/NicholasJacques","followers_url":"https://api.github.com/users/NicholasJacques/followers","following_url":"https://api.github.com/users/NicholasJacques/following{/other_user}","gists_url":"https://api.github.com/users/NicholasJacques/gists{/gist_id}","starred_url":"https://api.github.com/users/NicholasJacques/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/NicholasJacques/subscriptions","organizations_url":"https://api.github.com/users/NicholasJacques/orgs","repos_url":"https://api.github.com/users/NicholasJacques/repos","events_url":"https://api.github.com/users/NicholasJacques/events{/privacy}","received_events_url":"https://api.github.com/users/NicholasJacques/received_events","type":"User","site_admin":false,"name":"Nicholas
+        Jacques","company":"@Turingschool","blog":"","location":"Denver, CO","email":null,"hireable":true,"bio":"Back
+        End Engineering Student @Turingschool","public_repos":46,"public_gists":19,"followers":9,"following":18,"created_at":"2016-06-20T05:01:59Z","updated_at":"2017-07-05T05:45:37Z"}'
+    http_version: 
+  recorded_at: Sat, 08 Jul 2017 23:24:12 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/paulgrever?access_token=4e4086ae85c7b0e17fe9edae295fc748a2c7576b
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Sat, 08 Jul 2017 23:24:13 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4898'
+      X-Ratelimit-Reset:
+      - '1499557266'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      Etag:
+      - W/"f9ab4e0ed3b6601d313b17c21ee3a230"
+      Last-Modified:
+      - Mon, 15 May 2017 23:30:06 GMT
+      X-Oauth-Scopes:
+      - ''
+      X-Accepted-Oauth-Scopes:
+      - ''
+      X-Oauth-Client-Id:
+      - 43f42477d5c72fbfd253
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Runtime-Rack:
+      - '0.031892'
+      X-Served-By:
+      - 1e9204dbc0447a6f39c3b3c44d87b3f8
+      X-Github-Request-Id:
+      - D3E8:724E:F3ABFD:1BE161B:5961699C
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"paulgrever","id":3664281,"avatar_url":"https://avatars2.githubusercontent.com/u/3664281?v=3","gravatar_id":"","url":"https://api.github.com/users/paulgrever","html_url":"https://github.com/paulgrever","followers_url":"https://api.github.com/users/paulgrever/followers","following_url":"https://api.github.com/users/paulgrever/following{/other_user}","gists_url":"https://api.github.com/users/paulgrever/gists{/gist_id}","starred_url":"https://api.github.com/users/paulgrever/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/paulgrever/subscriptions","organizations_url":"https://api.github.com/users/paulgrever/orgs","repos_url":"https://api.github.com/users/paulgrever/repos","events_url":"https://api.github.com/users/paulgrever/events{/privacy}","received_events_url":"https://api.github.com/users/paulgrever/received_events","type":"User","site_admin":false,"name":"Paul
+        Grever","company":"GoSpotCheck","blog":"","location":"Denver CO","email":"paulgrever@gmail.com","hireable":null,"bio":null,"public_repos":75,"public_gists":6,"followers":13,"following":28,"created_at":"2013-02-21T23:22:06Z","updated_at":"2017-05-15T23:30:06Z"}'
+    http_version: 
+  recorded_at: Sat, 08 Jul 2017 23:24:13 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/marinacor1/orgs?access_token=4e4086ae85c7b0e17fe9edae295fc748a2c7576b
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Sat, 08 Jul 2017 23:24:13 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4897'
+      X-Ratelimit-Reset:
+      - '1499557266'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      Etag:
+      - W/"fdfdeaa2ea6fa558345ea718ab148f34"
+      X-Oauth-Scopes:
+      - ''
+      X-Accepted-Oauth-Scopes:
+      - ''
+      X-Oauth-Client-Id:
+      - 43f42477d5c72fbfd253
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Runtime-Rack:
+      - '0.024080'
+      X-Github-Request-Id:
+      - D3E9:7251:10A1BFC:1A2C3A1:5961699D
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"login":"Myopia123","id":19578673,"url":"https://api.github.com/orgs/Myopia123","repos_url":"https://api.github.com/orgs/Myopia123/repos","events_url":"https://api.github.com/orgs/Myopia123/events","hooks_url":"https://api.github.com/orgs/Myopia123/hooks","issues_url":"https://api.github.com/orgs/Myopia123/issues","members_url":"https://api.github.com/orgs/Myopia123/members{/member}","public_members_url":"https://api.github.com/orgs/Myopia123/public_members{/member}","avatar_url":"https://avatars3.githubusercontent.com/u/19578673?v=3","description":"We
+        are an organization for API Curious."}]'
+    http_version: 
+  recorded_at: Sat, 08 Jul 2017 23:24:13 GMT
+- request:
+    method: get
+    uri: https://api.github.com/orgs/Myopia123?access_token=4e4086ae85c7b0e17fe9edae295fc748a2c7576b
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Sat, 08 Jul 2017 23:24:13 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4896'
+      X-Ratelimit-Reset:
+      - '1499557266'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      Etag:
+      - W/"07cab431d7fd8348d10b75128335fbdc"
+      Last-Modified:
+      - Wed, 25 May 2016 20:40:26 GMT
+      X-Oauth-Scopes:
+      - ''
+      X-Accepted-Oauth-Scopes:
+      - admin:org, read:org, repo, user, write:org
+      X-Oauth-Client-Id:
+      - 43f42477d5c72fbfd253
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Runtime-Rack:
+      - '0.033871'
+      X-Github-Request-Id:
+      - D3EA:724E:F3AC2F:1BE168A:5961699D
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"Myopia123","id":19578673,"url":"https://api.github.com/orgs/Myopia123","repos_url":"https://api.github.com/orgs/Myopia123/repos","events_url":"https://api.github.com/orgs/Myopia123/events","hooks_url":"https://api.github.com/orgs/Myopia123/hooks","issues_url":"https://api.github.com/orgs/Myopia123/issues","members_url":"https://api.github.com/orgs/Myopia123/members{/member}","public_members_url":"https://api.github.com/orgs/Myopia123/public_members{/member}","avatar_url":"https://avatars3.githubusercontent.com/u/19578673?v=3","description":"We
+        are an organization for API Curious.","name":"Myopia123","company":null,"blog":"","location":"Denver,
+        Colorado","email":"","has_organization_projects":true,"has_repository_projects":true,"public_repos":0,"public_gists":0,"followers":0,"following":0,"html_url":"https://github.com/Myopia123","created_at":"2016-05-25T20:33:48Z","updated_at":"2016-05-25T20:40:26Z","type":"Organization"}'
+    http_version: 
+  recorded_at: Sat, 08 Jul 2017 23:24:13 GMT
+recorded_with: VCR 3.0.3
