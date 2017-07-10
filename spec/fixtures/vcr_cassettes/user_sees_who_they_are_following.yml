@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sun, 09 Jul 2017 21:39:12 GMT
+      - Mon, 10 Jul 2017 02:20:16 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -31,9 +31,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4918'
+      - '4518'
       X-Ratelimit-Reset:
-      - '1499639331'
+      - '1499655349'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -67,17 +67,17 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Runtime-Rack:
-      - '0.024093'
+      - '0.028459'
       X-Served-By:
-      - 46808ddc41c302090177e58148908b23
+      - 9e60649f02cd840ee8baa9960690f79f
       X-Github-Request-Id:
-      - FAC5:11DB2:21353A6:33755DF:5962A280
+      - CC68:11DB2:2439111:381C400:5962E460
     body:
       encoding: ASCII-8BIT
       string: !binary |-
         eyJsb2dpbiI6Im5tY29sb21lIiwiaWQiOjI0MzYwMjQ5LCJhdmF0YXJfdXJsIjoiaHR0cHM6Ly9hdmF0YXJzMS5naXRodWJ1c2VyY29udGVudC5jb20vdS8yNDM2MDI0OT92PTMiLCJncmF2YXRhcl9pZCI6IiIsInVybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vdXNlcnMvbm1jb2xvbWUiLCJodG1sX3VybCI6Imh0dHBzOi8vZ2l0aHViLmNvbS9ubWNvbG9tZSIsImZvbGxvd2Vyc191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3VzZXJzL25tY29sb21lL2ZvbGxvd2VycyIsImZvbGxvd2luZ191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3VzZXJzL25tY29sb21lL2ZvbGxvd2luZ3svb3RoZXJfdXNlcn0iLCJnaXN0c191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3VzZXJzL25tY29sb21lL2dpc3Rzey9naXN0X2lkfSIsInN0YXJyZWRfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS91c2Vycy9ubWNvbG9tZS9zdGFycmVkey9vd25lcn17L3JlcG99Iiwic3Vic2NyaXB0aW9uc191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3VzZXJzL25tY29sb21lL3N1YnNjcmlwdGlvbnMiLCJvcmdhbml6YXRpb25zX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vdXNlcnMvbm1jb2xvbWUvb3JncyIsInJlcG9zX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vdXNlcnMvbm1jb2xvbWUvcmVwb3MiLCJldmVudHNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS91c2Vycy9ubWNvbG9tZS9ldmVudHN7L3ByaXZhY3l9IiwicmVjZWl2ZWRfZXZlbnRzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vdXNlcnMvbm1jb2xvbWUvcmVjZWl2ZWRfZXZlbnRzIiwidHlwZSI6IlVzZXIiLCJzaXRlX2FkbWluIjpmYWxzZSwibmFtZSI6Ik5hdGFsaWEgQ29sb23DqSIsImNvbXBhbnkiOm51bGwsImJsb2ciOiIiLCJsb2NhdGlvbiI6bnVsbCwiZW1haWwiOiJubWNvbG9tZUBnbWFpbC5jb20iLCJoaXJlYWJsZSI6dHJ1ZSwiYmlvIjpudWxsLCJwdWJsaWNfcmVwb3MiOjM3LCJwdWJsaWNfZ2lzdHMiOjE5LCJmb2xsb3dlcnMiOjMsImZvbGxvd2luZyI6NSwiY3JlYXRlZF9hdCI6IjIwMTYtMTItMDNUMjA6MjA6NDZaIiwidXBkYXRlZF9hdCI6IjIwMTctMDctMDVUMjI6MTU6MDZaIn0=
     http_version: 
-  recorded_at: Sun, 09 Jul 2017 21:39:12 GMT
+  recorded_at: Mon, 10 Jul 2017 02:20:16 GMT
 - request:
     method: get
     uri: https://api.github.com/users/nmcolome/orgs?access_token=<ACCESS_TOKEN>
@@ -99,7 +99,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sun, 09 Jul 2017 21:39:12 GMT
+      - Mon, 10 Jul 2017 02:20:17 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -109,13 +109,14 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4917'
+      - '4517'
       X-Ratelimit-Reset:
-      - '1499639331'
+      - '1499655349'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
       - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
       Etag:
       - '"98f0c1b396a4e5d54f4d5fe561d54b44"'
       X-Oauth-Scopes:
@@ -142,14 +143,16 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Runtime-Rack:
-      - '0.016179'
+      - '0.016110'
+      X-Served-By:
+      - 10ea50bffaded85949561216def301f3
       X-Github-Request-Id:
-      - FAC6:11DB6:1AB5286:331B326:5962A280
+      - CC69:11DAA:13F680C:1EBA888:5962E460
     body:
       encoding: UTF-8
       string: "[]"
     http_version: 
-  recorded_at: Sun, 09 Jul 2017 21:39:12 GMT
+  recorded_at: Mon, 10 Jul 2017 02:20:17 GMT
 - request:
     method: get
     uri: https://api.github.com/users/nmcolome?access_token=<ACCESS_TOKEN>
@@ -171,7 +174,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sun, 09 Jul 2017 21:39:13 GMT
+      - Mon, 10 Jul 2017 02:20:17 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -181,13 +184,14 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4916'
+      - '4516'
       X-Ratelimit-Reset:
-      - '1499639331'
+      - '1499655349'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
       - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
       Etag:
       - W/"8c04015c2ac5bd4a635473ad85e20c09"
       Last-Modified:
@@ -216,15 +220,17 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Runtime-Rack:
-      - '0.036037'
+      - '0.029294'
+      X-Served-By:
+      - 7b641bda7ec2ca7cd9df72d2578baf75
       X-Github-Request-Id:
-      - FAC7:11DB6:1AB52AC:331B370:5962A281
+      - CC6A:11DB2:243919C:381C4C5:5962E461
     body:
       encoding: ASCII-8BIT
       string: !binary |-
         eyJsb2dpbiI6Im5tY29sb21lIiwiaWQiOjI0MzYwMjQ5LCJhdmF0YXJfdXJsIjoiaHR0cHM6Ly9hdmF0YXJzMS5naXRodWJ1c2VyY29udGVudC5jb20vdS8yNDM2MDI0OT92PTMiLCJncmF2YXRhcl9pZCI6IiIsInVybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vdXNlcnMvbm1jb2xvbWUiLCJodG1sX3VybCI6Imh0dHBzOi8vZ2l0aHViLmNvbS9ubWNvbG9tZSIsImZvbGxvd2Vyc191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3VzZXJzL25tY29sb21lL2ZvbGxvd2VycyIsImZvbGxvd2luZ191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3VzZXJzL25tY29sb21lL2ZvbGxvd2luZ3svb3RoZXJfdXNlcn0iLCJnaXN0c191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3VzZXJzL25tY29sb21lL2dpc3Rzey9naXN0X2lkfSIsInN0YXJyZWRfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS91c2Vycy9ubWNvbG9tZS9zdGFycmVkey9vd25lcn17L3JlcG99Iiwic3Vic2NyaXB0aW9uc191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3VzZXJzL25tY29sb21lL3N1YnNjcmlwdGlvbnMiLCJvcmdhbml6YXRpb25zX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vdXNlcnMvbm1jb2xvbWUvb3JncyIsInJlcG9zX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vdXNlcnMvbm1jb2xvbWUvcmVwb3MiLCJldmVudHNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS91c2Vycy9ubWNvbG9tZS9ldmVudHN7L3ByaXZhY3l9IiwicmVjZWl2ZWRfZXZlbnRzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vdXNlcnMvbm1jb2xvbWUvcmVjZWl2ZWRfZXZlbnRzIiwidHlwZSI6IlVzZXIiLCJzaXRlX2FkbWluIjpmYWxzZSwibmFtZSI6Ik5hdGFsaWEgQ29sb23DqSIsImNvbXBhbnkiOm51bGwsImJsb2ciOiIiLCJsb2NhdGlvbiI6bnVsbCwiZW1haWwiOiJubWNvbG9tZUBnbWFpbC5jb20iLCJoaXJlYWJsZSI6dHJ1ZSwiYmlvIjpudWxsLCJwdWJsaWNfcmVwb3MiOjM3LCJwdWJsaWNfZ2lzdHMiOjE5LCJmb2xsb3dlcnMiOjMsImZvbGxvd2luZyI6NSwiY3JlYXRlZF9hdCI6IjIwMTYtMTItMDNUMjA6MjA6NDZaIiwidXBkYXRlZF9hdCI6IjIwMTctMDctMDVUMjI6MTU6MDZaIn0=
     http_version: 
-  recorded_at: Sun, 09 Jul 2017 21:39:12 GMT
+  recorded_at: Mon, 10 Jul 2017 02:20:17 GMT
 - request:
     method: get
     uri: https://api.github.com/users/nmcolome/orgs?access_token=<ACCESS_TOKEN>
@@ -246,7 +252,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sun, 09 Jul 2017 21:39:13 GMT
+      - Mon, 10 Jul 2017 02:20:17 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -256,13 +262,14 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4915'
+      - '4515'
       X-Ratelimit-Reset:
-      - '1499639331'
+      - '1499655349'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
       - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
       Etag:
       - '"98f0c1b396a4e5d54f4d5fe561d54b44"'
       X-Oauth-Scopes:
@@ -289,14 +296,16 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Runtime-Rack:
-      - '0.019720'
+      - '0.017781'
+      X-Served-By:
+      - 10ea50bffaded85949561216def301f3
       X-Github-Request-Id:
-      - FAC8:11DB2:2135435:33756D3:5962A281
+      - CC6B:11DB6:1D221C5:37BCC64:5962E461
     body:
       encoding: UTF-8
       string: "[]"
     http_version: 
-  recorded_at: Sun, 09 Jul 2017 21:39:13 GMT
+  recorded_at: Mon, 10 Jul 2017 02:20:17 GMT
 - request:
     method: get
     uri: https://api.github.com/users/nmcolome/following?access_token=<ACCESS_TOKEN>
@@ -318,7 +327,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sun, 09 Jul 2017 21:39:13 GMT
+      - Mon, 10 Jul 2017 02:20:18 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -328,14 +337,13 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4914'
+      - '4514'
       X-Ratelimit-Reset:
-      - '1499639331'
+      - '1499655349'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
       - Accept, Authorization, Cookie, X-GitHub-OTP
-      - Accept-Encoding
       Etag:
       - W/"6e15f9bdf32915af01538e12d2859aa5"
       X-Oauth-Scopes:
@@ -362,16 +370,14 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Runtime-Rack:
-      - '0.029140'
-      X-Served-By:
-      - 10ea50bffaded85949561216def301f3
+      - '0.037852'
       X-Github-Request-Id:
-      - FAC9:11DB6:1AB52EA:331B406:5962A281
+      - CC6C:11DB2:2439236:381C59C:5962E461
     body:
       encoding: ASCII-8BIT
       string: '[{"login":"iandouglas","id":168030,"avatar_url":"https://avatars3.githubusercontent.com/u/168030?v=3","gravatar_id":"","url":"https://api.github.com/users/iandouglas","html_url":"https://github.com/iandouglas","followers_url":"https://api.github.com/users/iandouglas/followers","following_url":"https://api.github.com/users/iandouglas/following{/other_user}","gists_url":"https://api.github.com/users/iandouglas/gists{/gist_id}","starred_url":"https://api.github.com/users/iandouglas/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/iandouglas/subscriptions","organizations_url":"https://api.github.com/users/iandouglas/orgs","repos_url":"https://api.github.com/users/iandouglas/repos","events_url":"https://api.github.com/users/iandouglas/events{/privacy}","received_events_url":"https://api.github.com/users/iandouglas/received_events","type":"User","site_admin":false},{"login":"nebrius","id":1141386,"avatar_url":"https://avatars0.githubusercontent.com/u/1141386?v=3","gravatar_id":"","url":"https://api.github.com/users/nebrius","html_url":"https://github.com/nebrius","followers_url":"https://api.github.com/users/nebrius/followers","following_url":"https://api.github.com/users/nebrius/following{/other_user}","gists_url":"https://api.github.com/users/nebrius/gists{/gist_id}","starred_url":"https://api.github.com/users/nebrius/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/nebrius/subscriptions","organizations_url":"https://api.github.com/users/nebrius/orgs","repos_url":"https://api.github.com/users/nebrius/repos","events_url":"https://api.github.com/users/nebrius/events{/privacy}","received_events_url":"https://api.github.com/users/nebrius/received_events","type":"User","site_admin":false},{"login":"nickedwards109","id":13083224,"avatar_url":"https://avatars0.githubusercontent.com/u/13083224?v=3","gravatar_id":"","url":"https://api.github.com/users/nickedwards109","html_url":"https://github.com/nickedwards109","followers_url":"https://api.github.com/users/nickedwards109/followers","following_url":"https://api.github.com/users/nickedwards109/following{/other_user}","gists_url":"https://api.github.com/users/nickedwards109/gists{/gist_id}","starred_url":"https://api.github.com/users/nickedwards109/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/nickedwards109/subscriptions","organizations_url":"https://api.github.com/users/nickedwards109/orgs","repos_url":"https://api.github.com/users/nickedwards109/repos","events_url":"https://api.github.com/users/nickedwards109/events{/privacy}","received_events_url":"https://api.github.com/users/nickedwards109/received_events","type":"User","site_admin":false},{"login":"jdiejim","id":14366628,"avatar_url":"https://avatars0.githubusercontent.com/u/14366628?v=3","gravatar_id":"","url":"https://api.github.com/users/jdiejim","html_url":"https://github.com/jdiejim","followers_url":"https://api.github.com/users/jdiejim/followers","following_url":"https://api.github.com/users/jdiejim/following{/other_user}","gists_url":"https://api.github.com/users/jdiejim/gists{/gist_id}","starred_url":"https://api.github.com/users/jdiejim/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jdiejim/subscriptions","organizations_url":"https://api.github.com/users/jdiejim/orgs","repos_url":"https://api.github.com/users/jdiejim/repos","events_url":"https://api.github.com/users/jdiejim/events{/privacy}","received_events_url":"https://api.github.com/users/jdiejim/received_events","type":"User","site_admin":false},{"login":"MasonHolland","id":19963253,"avatar_url":"https://avatars0.githubusercontent.com/u/19963253?v=3","gravatar_id":"","url":"https://api.github.com/users/MasonHolland","html_url":"https://github.com/MasonHolland","followers_url":"https://api.github.com/users/MasonHolland/followers","following_url":"https://api.github.com/users/MasonHolland/following{/other_user}","gists_url":"https://api.github.com/users/MasonHolland/gists{/gist_id}","starred_url":"https://api.github.com/users/MasonHolland/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/MasonHolland/subscriptions","organizations_url":"https://api.github.com/users/MasonHolland/orgs","repos_url":"https://api.github.com/users/MasonHolland/repos","events_url":"https://api.github.com/users/MasonHolland/events{/privacy}","received_events_url":"https://api.github.com/users/MasonHolland/received_events","type":"User","site_admin":false}]'
     http_version: 
-  recorded_at: Sun, 09 Jul 2017 21:39:13 GMT
+  recorded_at: Mon, 10 Jul 2017 02:20:18 GMT
 - request:
     method: get
     uri: https://api.github.com/users/iandouglas?access_token=<ACCESS_TOKEN>
@@ -393,7 +399,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sun, 09 Jul 2017 21:39:14 GMT
+      - Mon, 10 Jul 2017 02:20:18 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -403,13 +409,14 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4913'
+      - '4513'
       X-Ratelimit-Reset:
-      - '1499639331'
+      - '1499655349'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
       - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
       Etag:
       - W/"9a346ee212e986b4b0d1e85c9582e454"
       Last-Modified:
@@ -438,9 +445,11 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Runtime-Rack:
-      - '0.039236'
+      - '0.040778'
+      X-Served-By:
+      - 593010132f82159af0ded24b4932e109
       X-Github-Request-Id:
-      - FACA:11DAA:12569DD:1C3AB8A:5962A281
+      - CC6D:11DB6:1D2223F:37BCD3C:5962E462
     body:
       encoding: ASCII-8BIT
       string: '{"login":"iandouglas","id":168030,"avatar_url":"https://avatars3.githubusercontent.com/u/168030?v=3","gravatar_id":"","url":"https://api.github.com/users/iandouglas","html_url":"https://github.com/iandouglas","followers_url":"https://api.github.com/users/iandouglas/followers","following_url":"https://api.github.com/users/iandouglas/following{/other_user}","gists_url":"https://api.github.com/users/iandouglas/gists{/gist_id}","starred_url":"https://api.github.com/users/iandouglas/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/iandouglas/subscriptions","organizations_url":"https://api.github.com/users/iandouglas/orgs","repos_url":"https://api.github.com/users/iandouglas/repos","events_url":"https://api.github.com/users/iandouglas/events{/privacy}","received_events_url":"https://api.github.com/users/iandouglas/received_events","type":"User","site_admin":false,"name":"ian
@@ -448,7 +457,7 @@ http_interactions:
         CO","email":"ian.douglas@iandouglas.com","hireable":null,"bio":"Developer
         Relations Lead, open-source advocate, teacher/trainer/learner","public_repos":54,"public_gists":13,"followers":44,"following":20,"created_at":"2009-12-15T18:48:12Z","updated_at":"2017-07-04T03:55:08Z"}'
     http_version: 
-  recorded_at: Sun, 09 Jul 2017 21:39:13 GMT
+  recorded_at: Mon, 10 Jul 2017 02:20:18 GMT
 - request:
     method: get
     uri: https://api.github.com/users/nebrius?access_token=<ACCESS_TOKEN>
@@ -470,7 +479,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sun, 09 Jul 2017 21:39:14 GMT
+      - Mon, 10 Jul 2017 02:20:18 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -480,13 +489,14 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4912'
+      - '4512'
       X-Ratelimit-Reset:
-      - '1499639331'
+      - '1499655349'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
       - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
       Etag:
       - W/"ddb5e5a252391b265dbca8624cb3d5ed"
       Last-Modified:
@@ -515,9 +525,11 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Runtime-Rack:
-      - '0.041040'
+      - '0.030801'
+      X-Served-By:
+      - 88531cdcf1929112ec480e1806d44a33
       X-Github-Request-Id:
-      - FACB:11DAC:8B764E:D742E3:5962A282
+      - CC6E:11DB2:24392CA:381C66E:5962E462
     body:
       encoding: ASCII-8BIT
       string: '{"login":"nebrius","id":1141386,"avatar_url":"https://avatars0.githubusercontent.com/u/1141386?v=3","gravatar_id":"","url":"https://api.github.com/users/nebrius","html_url":"https://github.com/nebrius","followers_url":"https://api.github.com/users/nebrius/followers","following_url":"https://api.github.com/users/nebrius/following{/other_user}","gists_url":"https://api.github.com/users/nebrius/gists{/gist_id}","starred_url":"https://api.github.com/users/nebrius/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/nebrius/subscriptions","organizations_url":"https://api.github.com/users/nebrius/orgs","repos_url":"https://api.github.com/users/nebrius/repos","events_url":"https://api.github.com/users/nebrius/events{/privacy}","received_events_url":"https://api.github.com/users/nebrius/received_events","type":"User","site_admin":false,"name":"Bryan
@@ -525,7 +537,7 @@ http_interactions:
         am the interplay of my intellectual focus and emotional aperture. Technical
         Evangelist at @Microsoft.","public_repos":89,"public_gists":14,"followers":115,"following":0,"created_at":"2011-10-20T17:57:58Z","updated_at":"2017-06-23T10:01:08Z"}'
     http_version: 
-  recorded_at: Sun, 09 Jul 2017 21:39:14 GMT
+  recorded_at: Mon, 10 Jul 2017 02:20:18 GMT
 - request:
     method: get
     uri: https://api.github.com/users/nickedwards109?access_token=<ACCESS_TOKEN>
@@ -547,7 +559,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sun, 09 Jul 2017 21:39:14 GMT
+      - Mon, 10 Jul 2017 02:20:19 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -557,9 +569,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4911'
+      - '4511'
       X-Ratelimit-Reset:
-      - '1499639331'
+      - '1499655349'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -593,18 +605,18 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Runtime-Rack:
-      - '0.030642'
+      - '0.025978'
       X-Served-By:
-      - 46808ddc41c302090177e58148908b23
+      - edf23fdc48375d9066b698b8d98062e9
       X-Github-Request-Id:
-      - FACC:11DB6:1AB536A:331B50F:5962A282
+      - CC6F:11DB2:2439311:381C6DE:5962E462
     body:
       encoding: ASCII-8BIT
       string: '{"login":"nickedwards109","id":13083224,"avatar_url":"https://avatars0.githubusercontent.com/u/13083224?v=3","gravatar_id":"","url":"https://api.github.com/users/nickedwards109","html_url":"https://github.com/nickedwards109","followers_url":"https://api.github.com/users/nickedwards109/followers","following_url":"https://api.github.com/users/nickedwards109/following{/other_user}","gists_url":"https://api.github.com/users/nickedwards109/gists{/gist_id}","starred_url":"https://api.github.com/users/nickedwards109/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/nickedwards109/subscriptions","organizations_url":"https://api.github.com/users/nickedwards109/orgs","repos_url":"https://api.github.com/users/nickedwards109/repos","events_url":"https://api.github.com/users/nickedwards109/events{/privacy}","received_events_url":"https://api.github.com/users/nickedwards109/received_events","type":"User","site_admin":false,"name":"Nick
         Edwards","company":null,"blog":"","location":"Denver, CO","email":null,"hireable":null,"bio":"Student
         at Turing School of Software and Design (Back-End  Engineering Program)","public_repos":34,"public_gists":4,"followers":13,"following":29,"created_at":"2015-06-28T04:09:44Z","updated_at":"2017-07-08T19:39:32Z"}'
     http_version: 
-  recorded_at: Sun, 09 Jul 2017 21:39:14 GMT
+  recorded_at: Mon, 10 Jul 2017 02:20:19 GMT
 - request:
     method: get
     uri: https://api.github.com/users/jdiejim?access_token=<ACCESS_TOKEN>
@@ -626,7 +638,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sun, 09 Jul 2017 21:39:15 GMT
+      - Mon, 10 Jul 2017 02:20:19 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -636,13 +648,14 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4910'
+      - '4510'
       X-Ratelimit-Reset:
-      - '1499639331'
+      - '1499655349'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
       - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
       Etag:
       - W/"6d99a482ca6a7d2b44412790ee392bb0"
       Last-Modified:
@@ -671,14 +684,16 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Runtime-Rack:
-      - '0.039129'
+      - '0.064491'
+      X-Served-By:
+      - e14705a23c085afeff5e104b1fc3922a
       X-Github-Request-Id:
-      - FACD:11DB6:1AB538D:331B558:5962A282
+      - CC70:11DB2:243934F:381C740:5962E463
     body:
       encoding: ASCII-8BIT
       string: '{"login":"jdiejim","id":14366628,"avatar_url":"https://avatars0.githubusercontent.com/u/14366628?v=3","gravatar_id":"","url":"https://api.github.com/users/jdiejim","html_url":"https://github.com/jdiejim","followers_url":"https://api.github.com/users/jdiejim/followers","following_url":"https://api.github.com/users/jdiejim/following{/other_user}","gists_url":"https://api.github.com/users/jdiejim/gists{/gist_id}","starred_url":"https://api.github.com/users/jdiejim/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jdiejim/subscriptions","organizations_url":"https://api.github.com/users/jdiejim/orgs","repos_url":"https://api.github.com/users/jdiejim/repos","events_url":"https://api.github.com/users/jdiejim/events{/privacy}","received_events_url":"https://api.github.com/users/jdiejim/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"public_repos":36,"public_gists":13,"followers":3,"following":2,"created_at":"2015-09-20T02:52:08Z","updated_at":"2017-07-03T02:34:03Z"}'
     http_version: 
-  recorded_at: Sun, 09 Jul 2017 21:39:14 GMT
+  recorded_at: Mon, 10 Jul 2017 02:20:19 GMT
 - request:
     method: get
     uri: https://api.github.com/users/MasonHolland?access_token=<ACCESS_TOKEN>
@@ -700,7 +715,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sun, 09 Jul 2017 21:39:15 GMT
+      - Mon, 10 Jul 2017 02:20:19 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -710,9 +725,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4909'
+      - '4509'
       X-Ratelimit-Reset:
-      - '1499639331'
+      - '1499655349'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -746,15 +761,15 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Runtime-Rack:
-      - '0.025231'
+      - '0.032743'
       X-Served-By:
-      - bae57931a6fe678a3dffe9be8e7819c8
+      - 6694d697f15dfc31f0ffaf8cdb1d5a86
       X-Github-Request-Id:
-      - FACE:11DB6:1AB53AF:331B5A7:5962A283
+      - CC71:11DB6:1D22363:37BCF1D:5962E463
     body:
       encoding: ASCII-8BIT
       string: '{"login":"MasonHolland","id":19963253,"avatar_url":"https://avatars0.githubusercontent.com/u/19963253?v=3","gravatar_id":"","url":"https://api.github.com/users/MasonHolland","html_url":"https://github.com/MasonHolland","followers_url":"https://api.github.com/users/MasonHolland/followers","following_url":"https://api.github.com/users/MasonHolland/following{/other_user}","gists_url":"https://api.github.com/users/MasonHolland/gists{/gist_id}","starred_url":"https://api.github.com/users/MasonHolland/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/MasonHolland/subscriptions","organizations_url":"https://api.github.com/users/MasonHolland/orgs","repos_url":"https://api.github.com/users/MasonHolland/repos","events_url":"https://api.github.com/users/MasonHolland/events{/privacy}","received_events_url":"https://api.github.com/users/MasonHolland/received_events","type":"User","site_admin":false,"name":"Mason
         Holland","company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"public_repos":37,"public_gists":6,"followers":7,"following":17,"created_at":"2016-06-15T23:53:56Z","updated_at":"2017-05-09T01:19:45Z"}'
     http_version: 
-  recorded_at: Sun, 09 Jul 2017 21:39:15 GMT
+  recorded_at: Mon, 10 Jul 2017 02:20:19 GMT
 recorded_with: VCR 3.0.3

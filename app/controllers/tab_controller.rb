@@ -11,6 +11,11 @@ class TabController < ApplicationController
       @follows = GithubUser.get_followers(current_user.nickname, current_user.token)
     elsif params[:category] == 'following'
       @follows = GithubUser.get_following(current_user.nickname, current_user.token)
+    elsif params[:category] == 'repositories'
+      @repos = Repo.get_repos(current_user.nickname, current_user.token)
+    else
+      #activity feed
     end
   end
+
 end

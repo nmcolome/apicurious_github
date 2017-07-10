@@ -9,7 +9,7 @@ RSpec.describe GithubService do
   context ".current_user_info" do
     it "returns a hash" do
       VCR.use_cassette("github_service.current_user_info") do
-        
+
         raw_user = GithubService.current_user_info("iandouglas", ENV['my_token'])
 
         expect(raw_user).to be_a Hash
@@ -79,4 +79,39 @@ RSpec.describe GithubService do
     end
   end
 
+  context ".get_repos" do
+    it "returns an array of strings" do
+      VCR.use_cassette("github_service.get_repos") do
+        raw_repos = GithubService.get_repos("nmcolome", ENV['my_token'])
+        raw_repo = raw_repos.first
+
+        expect(raw_repos).to be_an Array
+        expect(raw_repos.count).to eq(30)
+        expect(raw_repo).to be_a String
+      end
+    end
+  end
+
+  context ".get_repo_data" do
+    it "returns an object" do
+      VCR.use_cassette("github_service.get_repo_data") do
+
+        raw_repo = GithubService.get_repo_data("nmcolome/little_shop", ENV['my_token'])
+
+        expect(raw_repo).to be_a Hash
+        expect(raw_repo).to have_key(:name)
+        expect(raw_repo).to have_key(:fork)
+        expect(raw_repo).to have_key(:description)
+        expect(raw_repo).to have_key(:updated_at)
+        expect(raw_repo).to have_key(:language)
+        expect(raw_repo).to have_key(:parent)
+
+        expect(raw_repo[:name]).to be_a String
+        expect(raw_repo[:description]).to be_a String
+        expect(raw_repo[:updated_at]).to be_a String
+        expect(raw_repo[:language]).to be_a String
+        expect(raw_repo[:parent]).to be_a Hash
+      end
+    end
+  end
 end

@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sun, 09 Jul 2017 21:39:09 GMT
+      - Mon, 10 Jul 2017 02:20:13 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -31,9 +31,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4928'
+      - '4528'
       X-Ratelimit-Reset:
-      - '1499639331'
+      - '1499655349'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -67,17 +67,17 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Runtime-Rack:
-      - '0.041064'
+      - '0.035246'
       X-Served-By:
       - 769054b6618fd34f3638f01469b229db
       X-Github-Request-Id:
-      - FABB:11DB6:1AB50A1:331AF67:5962A27C
+      - CC5E:11DB6:1D21E2A:37BC64A:5962E45D
     body:
       encoding: ASCII-8BIT
       string: !binary |-
         eyJsb2dpbiI6Im5tY29sb21lIiwiaWQiOjI0MzYwMjQ5LCJhdmF0YXJfdXJsIjoiaHR0cHM6Ly9hdmF0YXJzMS5naXRodWJ1c2VyY29udGVudC5jb20vdS8yNDM2MDI0OT92PTMiLCJncmF2YXRhcl9pZCI6IiIsInVybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vdXNlcnMvbm1jb2xvbWUiLCJodG1sX3VybCI6Imh0dHBzOi8vZ2l0aHViLmNvbS9ubWNvbG9tZSIsImZvbGxvd2Vyc191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3VzZXJzL25tY29sb21lL2ZvbGxvd2VycyIsImZvbGxvd2luZ191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3VzZXJzL25tY29sb21lL2ZvbGxvd2luZ3svb3RoZXJfdXNlcn0iLCJnaXN0c191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3VzZXJzL25tY29sb21lL2dpc3Rzey9naXN0X2lkfSIsInN0YXJyZWRfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS91c2Vycy9ubWNvbG9tZS9zdGFycmVkey9vd25lcn17L3JlcG99Iiwic3Vic2NyaXB0aW9uc191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3VzZXJzL25tY29sb21lL3N1YnNjcmlwdGlvbnMiLCJvcmdhbml6YXRpb25zX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vdXNlcnMvbm1jb2xvbWUvb3JncyIsInJlcG9zX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vdXNlcnMvbm1jb2xvbWUvcmVwb3MiLCJldmVudHNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS91c2Vycy9ubWNvbG9tZS9ldmVudHN7L3ByaXZhY3l9IiwicmVjZWl2ZWRfZXZlbnRzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vdXNlcnMvbm1jb2xvbWUvcmVjZWl2ZWRfZXZlbnRzIiwidHlwZSI6IlVzZXIiLCJzaXRlX2FkbWluIjpmYWxzZSwibmFtZSI6Ik5hdGFsaWEgQ29sb23DqSIsImNvbXBhbnkiOm51bGwsImJsb2ciOiIiLCJsb2NhdGlvbiI6bnVsbCwiZW1haWwiOiJubWNvbG9tZUBnbWFpbC5jb20iLCJoaXJlYWJsZSI6dHJ1ZSwiYmlvIjpudWxsLCJwdWJsaWNfcmVwb3MiOjM3LCJwdWJsaWNfZ2lzdHMiOjE5LCJmb2xsb3dlcnMiOjMsImZvbGxvd2luZyI6NSwiY3JlYXRlZF9hdCI6IjIwMTYtMTItMDNUMjA6MjA6NDZaIiwidXBkYXRlZF9hdCI6IjIwMTctMDctMDVUMjI6MTU6MDZaIn0=
     http_version: 
-  recorded_at: Sun, 09 Jul 2017 21:39:08 GMT
+  recorded_at: Mon, 10 Jul 2017 02:20:13 GMT
 - request:
     method: get
     uri: https://api.github.com/users/nmcolome/orgs?access_token=<ACCESS_TOKEN>
@@ -99,7 +99,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sun, 09 Jul 2017 21:39:09 GMT
+      - Mon, 10 Jul 2017 02:20:13 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -109,9 +109,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4927'
+      - '4527'
       X-Ratelimit-Reset:
-      - '1499639331'
+      - '1499655349'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -142,12 +142,12 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Runtime-Rack:
-      - '0.019602'
+      - '0.022288'
       X-Github-Request-Id:
-      - FABC:11DB6:1AB50C8:331AFAC:5962A27D
+      - CC5F:11DAA:13F664C:1EBA5E0:5962E45D
     body:
       encoding: UTF-8
       string: "[]"
     http_version: 
-  recorded_at: Sun, 09 Jul 2017 21:39:09 GMT
+  recorded_at: Mon, 10 Jul 2017 02:20:13 GMT
 recorded_with: VCR 3.0.3

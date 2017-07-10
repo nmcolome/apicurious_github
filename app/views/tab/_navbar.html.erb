@@ -1,8 +1,11 @@
   <section class='profile_navbar'>
-    <a>Overview</a>
-    <a>Repositories <span class="counter"><%= @github_user.public_repos %></span></a>
-    <%#<%= link_to "Followers",  %>
-    <span class="followers_link"><a href="/tab?category=followers">Followers <span class="counter"><%= @github_user.followers %></span></a></span>
-    
+
+    <a href="/tab" class="activity_link">Overview</a>
+
+    <a href="/tab?category=repositories" class="repositories_link">Repositories <span class="counter"><%= @github_user.public_repos %></span></a>
+
+    <a href="/tab?category=followers" class="followers_link">Followers <span class="counter"><%= @github_user.followers %></span></a>
+
     <a href="/tab?category=following" class="following_link">Following <span class="counter"><%= @github_user.following %></span></a>
+
   </section>

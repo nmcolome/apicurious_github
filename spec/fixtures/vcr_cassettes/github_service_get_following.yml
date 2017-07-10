@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sun, 09 Jul 2017 21:39:18 GMT
+      - Mon, 10 Jul 2017 02:20:35 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -31,9 +31,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4901'
+      - '4466'
       X-Ratelimit-Reset:
-      - '1499639331'
+      - '1499655349'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -65,14 +65,14 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Runtime-Rack:
-      - '0.044392'
+      - '0.039740'
       X-Served-By:
-      - 15bc4ab707db6d6b474783868c7cc828
+      - 77fbfb53269bbb85f82f23584d59f7c1
       X-Github-Request-Id:
-      - FAD6:11DB6:1AB5525:331B8A8:5962A286
+      - CC9D:11DAA:13F6F85:1EBB3EA:5962E473
     body:
       encoding: ASCII-8BIT
       string: '[{"login":"iandouglas","id":168030,"avatar_url":"https://avatars3.githubusercontent.com/u/168030?v=3","gravatar_id":"","url":"https://api.github.com/users/iandouglas","html_url":"https://github.com/iandouglas","followers_url":"https://api.github.com/users/iandouglas/followers","following_url":"https://api.github.com/users/iandouglas/following{/other_user}","gists_url":"https://api.github.com/users/iandouglas/gists{/gist_id}","starred_url":"https://api.github.com/users/iandouglas/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/iandouglas/subscriptions","organizations_url":"https://api.github.com/users/iandouglas/orgs","repos_url":"https://api.github.com/users/iandouglas/repos","events_url":"https://api.github.com/users/iandouglas/events{/privacy}","received_events_url":"https://api.github.com/users/iandouglas/received_events","type":"User","site_admin":false},{"login":"nebrius","id":1141386,"avatar_url":"https://avatars0.githubusercontent.com/u/1141386?v=3","gravatar_id":"","url":"https://api.github.com/users/nebrius","html_url":"https://github.com/nebrius","followers_url":"https://api.github.com/users/nebrius/followers","following_url":"https://api.github.com/users/nebrius/following{/other_user}","gists_url":"https://api.github.com/users/nebrius/gists{/gist_id}","starred_url":"https://api.github.com/users/nebrius/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/nebrius/subscriptions","organizations_url":"https://api.github.com/users/nebrius/orgs","repos_url":"https://api.github.com/users/nebrius/repos","events_url":"https://api.github.com/users/nebrius/events{/privacy}","received_events_url":"https://api.github.com/users/nebrius/received_events","type":"User","site_admin":false},{"login":"nickedwards109","id":13083224,"avatar_url":"https://avatars0.githubusercontent.com/u/13083224?v=3","gravatar_id":"","url":"https://api.github.com/users/nickedwards109","html_url":"https://github.com/nickedwards109","followers_url":"https://api.github.com/users/nickedwards109/followers","following_url":"https://api.github.com/users/nickedwards109/following{/other_user}","gists_url":"https://api.github.com/users/nickedwards109/gists{/gist_id}","starred_url":"https://api.github.com/users/nickedwards109/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/nickedwards109/subscriptions","organizations_url":"https://api.github.com/users/nickedwards109/orgs","repos_url":"https://api.github.com/users/nickedwards109/repos","events_url":"https://api.github.com/users/nickedwards109/events{/privacy}","received_events_url":"https://api.github.com/users/nickedwards109/received_events","type":"User","site_admin":false},{"login":"jdiejim","id":14366628,"avatar_url":"https://avatars0.githubusercontent.com/u/14366628?v=3","gravatar_id":"","url":"https://api.github.com/users/jdiejim","html_url":"https://github.com/jdiejim","followers_url":"https://api.github.com/users/jdiejim/followers","following_url":"https://api.github.com/users/jdiejim/following{/other_user}","gists_url":"https://api.github.com/users/jdiejim/gists{/gist_id}","starred_url":"https://api.github.com/users/jdiejim/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/jdiejim/subscriptions","organizations_url":"https://api.github.com/users/jdiejim/orgs","repos_url":"https://api.github.com/users/jdiejim/repos","events_url":"https://api.github.com/users/jdiejim/events{/privacy}","received_events_url":"https://api.github.com/users/jdiejim/received_events","type":"User","site_admin":false},{"login":"MasonHolland","id":19963253,"avatar_url":"https://avatars0.githubusercontent.com/u/19963253?v=3","gravatar_id":"","url":"https://api.github.com/users/MasonHolland","html_url":"https://github.com/MasonHolland","followers_url":"https://api.github.com/users/MasonHolland/followers","following_url":"https://api.github.com/users/MasonHolland/following{/other_user}","gists_url":"https://api.github.com/users/MasonHolland/gists{/gist_id}","starred_url":"https://api.github.com/users/MasonHolland/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/MasonHolland/subscriptions","organizations_url":"https://api.github.com/users/MasonHolland/orgs","repos_url":"https://api.github.com/users/MasonHolland/repos","events_url":"https://api.github.com/users/MasonHolland/events{/privacy}","received_events_url":"https://api.github.com/users/MasonHolland/received_events","type":"User","site_admin":false}]'
     http_version: 
-  recorded_at: Sun, 09 Jul 2017 21:39:17 GMT
+  recorded_at: Mon, 10 Jul 2017 02:20:35 GMT
 recorded_with: VCR 3.0.3

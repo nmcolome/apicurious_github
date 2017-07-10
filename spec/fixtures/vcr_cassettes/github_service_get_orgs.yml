@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sun, 09 Jul 2017 21:39:17 GMT
+      - Mon, 10 Jul 2017 02:20:34 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -31,9 +31,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4903'
+      - '4468'
       X-Ratelimit-Reset:
-      - '1499639331'
+      - '1499655349'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -65,15 +65,15 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Runtime-Rack:
-      - '0.016234'
+      - '0.020335'
       X-Served-By:
-      - 7b641bda7ec2ca7cd9df72d2578baf75
+      - 2c18a09f3ac5e4dd1e004af7c5a94769
       X-Github-Request-Id:
-      - FAD4:11DB2:2135718:3375B71:5962A285
+      - CC9B:11DAA:13F6F3F:1EBB37E:5962E472
     body:
       encoding: ASCII-8BIT
       string: '[{"login":"RallySoftware","id":1316658,"url":"https://api.github.com/orgs/RallySoftware","repos_url":"https://api.github.com/orgs/RallySoftware/repos","events_url":"https://api.github.com/orgs/RallySoftware/events","hooks_url":"https://api.github.com/orgs/RallySoftware/hooks","issues_url":"https://api.github.com/orgs/RallySoftware/issues","members_url":"https://api.github.com/orgs/RallySoftware/members{/member}","public_members_url":"https://api.github.com/orgs/RallySoftware/public_members{/member}","avatar_url":"https://avatars3.githubusercontent.com/u/1316658?v=3","description":"RallyDev
         organization and associated repositories"},{"login":"turingschool","id":7934292,"url":"https://api.github.com/orgs/turingschool","repos_url":"https://api.github.com/orgs/turingschool/repos","events_url":"https://api.github.com/orgs/turingschool/events","hooks_url":"https://api.github.com/orgs/turingschool/hooks","issues_url":"https://api.github.com/orgs/turingschool/issues","members_url":"https://api.github.com/orgs/turingschool/members{/member}","public_members_url":"https://api.github.com/orgs/turingschool/public_members{/member}","avatar_url":"https://avatars3.githubusercontent.com/u/7934292?v=3","description":""}]'
     http_version: 
-  recorded_at: Sun, 09 Jul 2017 21:39:17 GMT
+  recorded_at: Mon, 10 Jul 2017 02:20:34 GMT
 recorded_with: VCR 3.0.3

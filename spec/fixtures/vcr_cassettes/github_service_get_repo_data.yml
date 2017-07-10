@@ -1,0 +1,86 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.github.com/repos/nmcolome/little_shop?access_token=<ACCESS_TOKEN>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Mon, 10 Jul 2017 02:20:36 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4464'
+      X-Ratelimit-Reset:
+      - '1499655349'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      Etag:
+      - W/"ad496075fa9cc84ce3f35fd9e7419411"
+      Last-Modified:
+      - Mon, 03 Jul 2017 01:49:20 GMT
+      X-Oauth-Scopes:
+      - ''
+      X-Accepted-Oauth-Scopes:
+      - repo
+      X-Oauth-Client-Id:
+      - 43f42477d5c72fbfd253
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Runtime-Rack:
+      - '0.038488'
+      X-Served-By:
+      - 46808ddc41c302090177e58148908b23
+      X-Github-Request-Id:
+      - CC9F:11DB2:243A00B:381DAAA:5962E473
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":96060324,"name":"little_shop","full_name":"nmcolome/little_shop","owner":{"login":"nmcolome","id":24360249,"avatar_url":"https://avatars1.githubusercontent.com/u/24360249?v=3","gravatar_id":"","url":"https://api.github.com/users/nmcolome","html_url":"https://github.com/nmcolome","followers_url":"https://api.github.com/users/nmcolome/followers","following_url":"https://api.github.com/users/nmcolome/following{/other_user}","gists_url":"https://api.github.com/users/nmcolome/gists{/gist_id}","starred_url":"https://api.github.com/users/nmcolome/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/nmcolome/subscriptions","organizations_url":"https://api.github.com/users/nmcolome/orgs","repos_url":"https://api.github.com/users/nmcolome/repos","events_url":"https://api.github.com/users/nmcolome/events{/privacy}","received_events_url":"https://api.github.com/users/nmcolome/received_events","type":"User","site_admin":false},"private":false,"html_url":"https://github.com/nmcolome/little_shop","description":"An
+        ecommerce site that sells potions for super powers, droids, and vehicles from
+        a galaxy far far away, at great prices too!","fork":true,"url":"https://api.github.com/repos/nmcolome/little_shop","forks_url":"https://api.github.com/repos/nmcolome/little_shop/forks","keys_url":"https://api.github.com/repos/nmcolome/little_shop/keys{/key_id}","collaborators_url":"https://api.github.com/repos/nmcolome/little_shop/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/nmcolome/little_shop/teams","hooks_url":"https://api.github.com/repos/nmcolome/little_shop/hooks","issue_events_url":"https://api.github.com/repos/nmcolome/little_shop/issues/events{/number}","events_url":"https://api.github.com/repos/nmcolome/little_shop/events","assignees_url":"https://api.github.com/repos/nmcolome/little_shop/assignees{/user}","branches_url":"https://api.github.com/repos/nmcolome/little_shop/branches{/branch}","tags_url":"https://api.github.com/repos/nmcolome/little_shop/tags","blobs_url":"https://api.github.com/repos/nmcolome/little_shop/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/nmcolome/little_shop/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/nmcolome/little_shop/git/refs{/sha}","trees_url":"https://api.github.com/repos/nmcolome/little_shop/git/trees{/sha}","statuses_url":"https://api.github.com/repos/nmcolome/little_shop/statuses/{sha}","languages_url":"https://api.github.com/repos/nmcolome/little_shop/languages","stargazers_url":"https://api.github.com/repos/nmcolome/little_shop/stargazers","contributors_url":"https://api.github.com/repos/nmcolome/little_shop/contributors","subscribers_url":"https://api.github.com/repos/nmcolome/little_shop/subscribers","subscription_url":"https://api.github.com/repos/nmcolome/little_shop/subscription","commits_url":"https://api.github.com/repos/nmcolome/little_shop/commits{/sha}","git_commits_url":"https://api.github.com/repos/nmcolome/little_shop/git/commits{/sha}","comments_url":"https://api.github.com/repos/nmcolome/little_shop/comments{/number}","issue_comment_url":"https://api.github.com/repos/nmcolome/little_shop/issues/comments{/number}","contents_url":"https://api.github.com/repos/nmcolome/little_shop/contents/{+path}","compare_url":"https://api.github.com/repos/nmcolome/little_shop/compare/{base}...{head}","merges_url":"https://api.github.com/repos/nmcolome/little_shop/merges","archive_url":"https://api.github.com/repos/nmcolome/little_shop/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/nmcolome/little_shop/downloads","issues_url":"https://api.github.com/repos/nmcolome/little_shop/issues{/number}","pulls_url":"https://api.github.com/repos/nmcolome/little_shop/pulls{/number}","milestones_url":"https://api.github.com/repos/nmcolome/little_shop/milestones{/number}","notifications_url":"https://api.github.com/repos/nmcolome/little_shop/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/nmcolome/little_shop/labels{/name}","releases_url":"https://api.github.com/repos/nmcolome/little_shop/releases{/id}","deployments_url":"https://api.github.com/repos/nmcolome/little_shop/deployments","created_at":"2017-07-03T01:49:18Z","updated_at":"2017-07-03T01:49:20Z","pushed_at":"2017-07-03T00:44:34Z","git_url":"git://github.com/nmcolome/little_shop.git","ssh_url":"git@github.com:nmcolome/little_shop.git","clone_url":"https://github.com/nmcolome/little_shop.git","svn_url":"https://github.com/nmcolome/little_shop","homepage":"https://arcane-fjord-84665.herokuapp.com/","size":22511,"stargazers_count":0,"watchers_count":0,"language":"JavaScript","has_issues":false,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"forks_count":0,"mirror_url":null,"open_issues_count":0,"forks":0,"open_issues":0,"watchers":0,"default_branch":"master","permissions":{"admin":true,"push":true,"pull":true},"parent":{"id":92860918,"name":"little_shop","full_name":"Benja-Ross/little_shop","owner":{"login":"Benja-Ross","id":23532585,"avatar_url":"https://avatars3.githubusercontent.com/u/23532585?v=3","gravatar_id":"","url":"https://api.github.com/users/Benja-Ross","html_url":"https://github.com/Benja-Ross","followers_url":"https://api.github.com/users/Benja-Ross/followers","following_url":"https://api.github.com/users/Benja-Ross/following{/other_user}","gists_url":"https://api.github.com/users/Benja-Ross/gists{/gist_id}","starred_url":"https://api.github.com/users/Benja-Ross/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Benja-Ross/subscriptions","organizations_url":"https://api.github.com/users/Benja-Ross/orgs","repos_url":"https://api.github.com/users/Benja-Ross/repos","events_url":"https://api.github.com/users/Benja-Ross/events{/privacy}","received_events_url":"https://api.github.com/users/Benja-Ross/received_events","type":"User","site_admin":false},"private":false,"html_url":"https://github.com/Benja-Ross/little_shop","description":"An
+        ecommerce site that sells potions for super powers, droids, and vehicles from
+        a galaxy far far away, at great prices too!","fork":false,"url":"https://api.github.com/repos/Benja-Ross/little_shop","forks_url":"https://api.github.com/repos/Benja-Ross/little_shop/forks","keys_url":"https://api.github.com/repos/Benja-Ross/little_shop/keys{/key_id}","collaborators_url":"https://api.github.com/repos/Benja-Ross/little_shop/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/Benja-Ross/little_shop/teams","hooks_url":"https://api.github.com/repos/Benja-Ross/little_shop/hooks","issue_events_url":"https://api.github.com/repos/Benja-Ross/little_shop/issues/events{/number}","events_url":"https://api.github.com/repos/Benja-Ross/little_shop/events","assignees_url":"https://api.github.com/repos/Benja-Ross/little_shop/assignees{/user}","branches_url":"https://api.github.com/repos/Benja-Ross/little_shop/branches{/branch}","tags_url":"https://api.github.com/repos/Benja-Ross/little_shop/tags","blobs_url":"https://api.github.com/repos/Benja-Ross/little_shop/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/Benja-Ross/little_shop/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/Benja-Ross/little_shop/git/refs{/sha}","trees_url":"https://api.github.com/repos/Benja-Ross/little_shop/git/trees{/sha}","statuses_url":"https://api.github.com/repos/Benja-Ross/little_shop/statuses/{sha}","languages_url":"https://api.github.com/repos/Benja-Ross/little_shop/languages","stargazers_url":"https://api.github.com/repos/Benja-Ross/little_shop/stargazers","contributors_url":"https://api.github.com/repos/Benja-Ross/little_shop/contributors","subscribers_url":"https://api.github.com/repos/Benja-Ross/little_shop/subscribers","subscription_url":"https://api.github.com/repos/Benja-Ross/little_shop/subscription","commits_url":"https://api.github.com/repos/Benja-Ross/little_shop/commits{/sha}","git_commits_url":"https://api.github.com/repos/Benja-Ross/little_shop/git/commits{/sha}","comments_url":"https://api.github.com/repos/Benja-Ross/little_shop/comments{/number}","issue_comment_url":"https://api.github.com/repos/Benja-Ross/little_shop/issues/comments{/number}","contents_url":"https://api.github.com/repos/Benja-Ross/little_shop/contents/{+path}","compare_url":"https://api.github.com/repos/Benja-Ross/little_shop/compare/{base}...{head}","merges_url":"https://api.github.com/repos/Benja-Ross/little_shop/merges","archive_url":"https://api.github.com/repos/Benja-Ross/little_shop/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/Benja-Ross/little_shop/downloads","issues_url":"https://api.github.com/repos/Benja-Ross/little_shop/issues{/number}","pulls_url":"https://api.github.com/repos/Benja-Ross/little_shop/pulls{/number}","milestones_url":"https://api.github.com/repos/Benja-Ross/little_shop/milestones{/number}","notifications_url":"https://api.github.com/repos/Benja-Ross/little_shop/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/Benja-Ross/little_shop/labels{/name}","releases_url":"https://api.github.com/repos/Benja-Ross/little_shop/releases{/id}","deployments_url":"https://api.github.com/repos/Benja-Ross/little_shop/deployments","created_at":"2017-05-30T17:54:47Z","updated_at":"2017-07-08T19:00:13Z","pushed_at":"2017-07-03T00:44:34Z","git_url":"git://github.com/Benja-Ross/little_shop.git","ssh_url":"git@github.com:Benja-Ross/little_shop.git","clone_url":"https://github.com/Benja-Ross/little_shop.git","svn_url":"https://github.com/Benja-Ross/little_shop","homepage":"https://arcane-fjord-84665.herokuapp.com/","size":22511,"stargazers_count":2,"watchers_count":2,"language":"JavaScript","has_issues":true,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"forks_count":3,"mirror_url":null,"open_issues_count":3,"forks":3,"open_issues":3,"watchers":2,"default_branch":"master"},"source":{"id":92860918,"name":"little_shop","full_name":"Benja-Ross/little_shop","owner":{"login":"Benja-Ross","id":23532585,"avatar_url":"https://avatars3.githubusercontent.com/u/23532585?v=3","gravatar_id":"","url":"https://api.github.com/users/Benja-Ross","html_url":"https://github.com/Benja-Ross","followers_url":"https://api.github.com/users/Benja-Ross/followers","following_url":"https://api.github.com/users/Benja-Ross/following{/other_user}","gists_url":"https://api.github.com/users/Benja-Ross/gists{/gist_id}","starred_url":"https://api.github.com/users/Benja-Ross/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Benja-Ross/subscriptions","organizations_url":"https://api.github.com/users/Benja-Ross/orgs","repos_url":"https://api.github.com/users/Benja-Ross/repos","events_url":"https://api.github.com/users/Benja-Ross/events{/privacy}","received_events_url":"https://api.github.com/users/Benja-Ross/received_events","type":"User","site_admin":false},"private":false,"html_url":"https://github.com/Benja-Ross/little_shop","description":"An
+        ecommerce site that sells potions for super powers, droids, and vehicles from
+        a galaxy far far away, at great prices too!","fork":false,"url":"https://api.github.com/repos/Benja-Ross/little_shop","forks_url":"https://api.github.com/repos/Benja-Ross/little_shop/forks","keys_url":"https://api.github.com/repos/Benja-Ross/little_shop/keys{/key_id}","collaborators_url":"https://api.github.com/repos/Benja-Ross/little_shop/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/Benja-Ross/little_shop/teams","hooks_url":"https://api.github.com/repos/Benja-Ross/little_shop/hooks","issue_events_url":"https://api.github.com/repos/Benja-Ross/little_shop/issues/events{/number}","events_url":"https://api.github.com/repos/Benja-Ross/little_shop/events","assignees_url":"https://api.github.com/repos/Benja-Ross/little_shop/assignees{/user}","branches_url":"https://api.github.com/repos/Benja-Ross/little_shop/branches{/branch}","tags_url":"https://api.github.com/repos/Benja-Ross/little_shop/tags","blobs_url":"https://api.github.com/repos/Benja-Ross/little_shop/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/Benja-Ross/little_shop/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/Benja-Ross/little_shop/git/refs{/sha}","trees_url":"https://api.github.com/repos/Benja-Ross/little_shop/git/trees{/sha}","statuses_url":"https://api.github.com/repos/Benja-Ross/little_shop/statuses/{sha}","languages_url":"https://api.github.com/repos/Benja-Ross/little_shop/languages","stargazers_url":"https://api.github.com/repos/Benja-Ross/little_shop/stargazers","contributors_url":"https://api.github.com/repos/Benja-Ross/little_shop/contributors","subscribers_url":"https://api.github.com/repos/Benja-Ross/little_shop/subscribers","subscription_url":"https://api.github.com/repos/Benja-Ross/little_shop/subscription","commits_url":"https://api.github.com/repos/Benja-Ross/little_shop/commits{/sha}","git_commits_url":"https://api.github.com/repos/Benja-Ross/little_shop/git/commits{/sha}","comments_url":"https://api.github.com/repos/Benja-Ross/little_shop/comments{/number}","issue_comment_url":"https://api.github.com/repos/Benja-Ross/little_shop/issues/comments{/number}","contents_url":"https://api.github.com/repos/Benja-Ross/little_shop/contents/{+path}","compare_url":"https://api.github.com/repos/Benja-Ross/little_shop/compare/{base}...{head}","merges_url":"https://api.github.com/repos/Benja-Ross/little_shop/merges","archive_url":"https://api.github.com/repos/Benja-Ross/little_shop/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/Benja-Ross/little_shop/downloads","issues_url":"https://api.github.com/repos/Benja-Ross/little_shop/issues{/number}","pulls_url":"https://api.github.com/repos/Benja-Ross/little_shop/pulls{/number}","milestones_url":"https://api.github.com/repos/Benja-Ross/little_shop/milestones{/number}","notifications_url":"https://api.github.com/repos/Benja-Ross/little_shop/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/Benja-Ross/little_shop/labels{/name}","releases_url":"https://api.github.com/repos/Benja-Ross/little_shop/releases{/id}","deployments_url":"https://api.github.com/repos/Benja-Ross/little_shop/deployments","created_at":"2017-05-30T17:54:47Z","updated_at":"2017-07-08T19:00:13Z","pushed_at":"2017-07-03T00:44:34Z","git_url":"git://github.com/Benja-Ross/little_shop.git","ssh_url":"git@github.com:Benja-Ross/little_shop.git","clone_url":"https://github.com/Benja-Ross/little_shop.git","svn_url":"https://github.com/Benja-Ross/little_shop","homepage":"https://arcane-fjord-84665.herokuapp.com/","size":22511,"stargazers_count":2,"watchers_count":2,"language":"JavaScript","has_issues":true,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"forks_count":3,"mirror_url":null,"open_issues_count":3,"forks":3,"open_issues":3,"watchers":2,"default_branch":"master"},"network_count":3,"subscribers_count":0}'
+    http_version: 
+  recorded_at: Mon, 10 Jul 2017 02:20:36 GMT
+recorded_with: VCR 3.0.3
