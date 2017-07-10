@@ -1,42 +1,10 @@
 <span class='grid'>
   <%= render partial: "navbar" %>
 
-  <% if params[:category] == 'repositories' %>
-
-    <% @repos.each do |repo| %>
-      <h2 class="repo_name"><%= repo.name %></h2>
-      <% if repo.forked %>
-        <p class="parent_full_name">Forked from <%= repo.parent_full_name %></p>
-      <% end %>
-      <p class="description"><%= repo.description %></p>
-      <div>
-        <p class="language"><%= repo.language %></p>
-        <p class="forks"><%= repo.forks %></p>
-        <p class="updated_at">Updated <%= distance_of_time_in_words(repo.updated_at, Time.now) %> ago</p>
-      </div>
-    <% end %>
-
-  <% elsif params[:category] == 'followers' || params[:category] == 'following' %>
-
-    <% @follows.each do |user_follow| %>
-      <section class="follow_card">
-        <div>
-          <%= image_tag user_follow.avatar_url, class: "s_avatar" %>
-        </div>
-        <div class="follow_data">
-          <span class='name_data'>
-            <p class='user_follow_name'><%= user_follow.name %></p>
-            <p><%= user_follow.login %></p>
-          </span>
-          <p class='bio'><%= user_follow.bio %></p>
-          <span class='contact_data'>
-            <p><%= user_follow.location %></p>
-            <p><%= user_follow.company %></p>
-          </span>
-        </div>
-      </section>
-    <% end %>
-
+  <% if @repos %>
+    <%= render partial: 'repos' %>
+  <% elsif @follows %>
+    <%= render partial: 'follows' %>
   <% else %>
 
   <% end %>

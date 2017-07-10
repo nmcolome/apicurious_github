@@ -1,0 +1,13 @@
+
+    <% @repos.each do |repo| %>
+      <h2 class="repo_name"><%= repo.name %></h2>
+      <% if repo.forked %>
+        <p class="parent_full_name">Forked from <%= repo.parent_full_name %></p>
+      <% end %>
+      <p class="description"><%= repo.description %></p>
+      <div>
+        <p class="language"><%= repo.language %></p>
+        <p class="forks"><%= repo.forks %></p>
+        <p class="updated_at">Updated <%= distance_of_time_in_words(repo.updated_at, Time.now) %> ago</p>
+      </div>
+    <% end %>

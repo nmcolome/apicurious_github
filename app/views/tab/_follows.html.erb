@@ -1,0 +1,18 @@
+   <% @follows.each do |user_follow| %>
+      <section class="follow_card">
+        <div>
+          <%= image_tag user_follow.avatar_url, class: "s_avatar" %>
+        </div>
+        <div class="follow_data">
+          <span class='name_data'>
+            <p class='user_follow_name'><%= user_follow.name %></p>
+            <p><%= user_follow.login %></p>
+          </span>
+          <p class='bio'><%= user_follow.bio %></p>
+          <span class='contact_data'>
+            <p><%= user_follow.location %></p>
+            <p><%= user_follow.company %></p>
+          </span>
+        </div>
+      </section>
+    <% end %>
